@@ -1,0 +1,13 @@
+event "bad news"
+  dialog "bad news event"
+  system Sadalsuud
+     add link "Southern Wormhole 2"
+     add fleet "Large Quarg" 300
+
+  system "Southern Wormhole"
+      add fleet "Heliarch (Wormhole)" 300
+      add fleet "Large Quarg (Wormhole)" 1200
+
+  system "Southern Wormhole 2"
+    add fleet "Large Quarg (Wormhole)" 300
+    add fleet "Heliarch (Wormhole)" 1200
