@@ -10,7 +10,7 @@ Land on Tebuteb's Table in the Tebuteb system and you be asked to investigate an
 
 The story needs work. Give me story ideas and I might turn them into missions.
 
-[My current objectives](https://github.com/mathwhiz1212/A-Coalition-At-War/issues/1)
+[Current objectives](https://github.com/mathwhiz1212/A-Coalition-At-War/issues/1)
 
 [Feature requests](https://github.com/mathwhiz1212/A-Coalition-At-War/issues/new?template=feature_request.md)
 
