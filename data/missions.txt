@@ -1,20 +1,15 @@
 mission "Investigate the Anomaly"
-  description "Investigate the Anomaly in a nearby system and report what you find."
+  description "Investigate the Anomaly in a nearby system and return to Tebuteb's Table to report what you find."
   landing
   waypoint "Southern Wormhole"
   waypoint "Southern Wormhole 2"
   destination "Tebuteb's Table"
-#  job
-#  repeat
 
   on offer
     dialog "There's an anomaly in a nearby system this Heliarch official is anxious to find out what it is and why there have been warships passing through to the south when there shouldn't be anything to the south."
 
-  on accept
-    dialog "Investigate the anomaly and return to Tebuteb's Table to report what you find."
-
   on fail
-    dialog "fail"
+    dialog "Mission failed. You can reload from a save file to try again."
 
   on enter "Southern Wormhole"
     dialog `The "anomaly" looks like a wormhole. I wonder where it leads. Using the wormhole is part of "Investigating the anomaly"`
@@ -27,4 +22,4 @@ mission "Investigate the Anomaly"
     dialog "I must inform the Heliarchs at once. Do not engage the Quarg, they will destroy you. If you desire to help in the inevitable conflict, you may repair our ships, but do no more."
     event "bad news"
 
-# Later on, give Heliarch jump drives they looted from the Quarg.
+# Later on, give Heliarch jump drives they looted from the Quarg as a seperate event.

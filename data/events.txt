@@ -1,5 +1,4 @@
 event "bad news"
-  dialog "bad news event"
   system Sadalsuud
      add link "Southern Wormhole 2"
      add fleet "Large Quarg" 300
