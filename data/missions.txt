@@ -1,6 +1,7 @@
 mission "Investigate the Anomaly"
   description "Investigate the Anomaly in a nearby system and return to Tebuteb's Table to report what you find."
   landing
+  source "Tebuteb's Table"
   waypoint "Southern Wormhole"
   waypoint "Southern Wormhole 2"
   destination "Tebuteb's Table"
