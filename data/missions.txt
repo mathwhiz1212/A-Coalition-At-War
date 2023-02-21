@@ -23,3 +23,4 @@ mission "Investigate the Anomaly"
     event "bad news"
 
 # Later on, give Heliarch jump drives they looted from the Quarg as a seperate event.
+# disable mission "Quarg Ships Atrocity"
