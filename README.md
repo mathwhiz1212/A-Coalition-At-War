@@ -2,7 +2,7 @@
 
 You hear a lot about the conflict between the Coalition and the Quarg in Endless Sky, but you don't see it. 
 
-This plugin will introduce a storyline that lets you see that conflict and even capture Heliarch ships.
+This plugin will introduce a storyline that lets you see that conflict and use some of their technology.
 
 There's only one mission currently. See "Contributing" below if you have any ideas for more.
 
