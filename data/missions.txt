@@ -24,3 +24,178 @@ mission "Investigate the Anomaly"
 
 # Later on, give Heliarch jump drives they looted from the Quarg as a seperate event.
 # disable mission "Quarg Ships Atrocity"
+
+mission "tEST YO LOL"
+	landing
+	name "FS"
+	description "SD"
+	source "Earth"
+	destination "Luna"
+	clearance
+#	to offer
+#		has "FW Diplomacy 1B: done"
+#	passengers 1
+
+	on offer
+#		log "Stopped on Earth with Alondo to talk to Parliament and try to head off another bloody battle. But, they were not willing to negotiate."
+		conversation
+			`"As the war between the Quarg and Coalition grows, it's time to make a choice. You may want to get some credits together, especially if you join the Coalition. You will not be able to access any Quarg ringoworlds or much on the other side of "the Eye" without battling the Quarg."`
+			choice
+				`	"I've seen enough, I'm ready to pick a side."`
+					goto next
+				`	"I'd like to leave this war for a while. I'll make a decision later."`
+					goto wait
+
+			label precedent
+			`	"Wait"`
+         decline
+			label next
+			`	"Make your choice."`
+			choice
+				`	"Quarg."`
+					goto quarg
+				`	"Coalition.`
+          goto coalition
+
+      label quarg
+        ` "Quarg Yay!"`
+        #decline
+      label coalition
+        ` "Coalition yay"`
+  #        decline
+
+# Let's do a location choice instead. Importing the FW missions. TODO edit to fit this mission.
+
+mission "FW Southern Prisoners - Release"
+	name "Return Navy Prisoners"
+	description "As a goodwill gesture, return the Navy prisoners to <destination> rather than imprisoning them on Clink. Your safe passage ends on <day>."
+	source Dancer
+	clearance
+	destination "New Iceland"
+	to offer
+		has "FW Southern Battle 3: done"
+	to fail
+		has "FW Southern Prisoners - Keep: done"
+	deadline 7
+
+	on offer
+		conversation
+			`You find Freya and Alondo watching over a large hangar where several hundred Navy crew and support staff are being kept under guard. Alondo says, "I contacted the Navy admirals. They say Katya is not under their control; she is a prisoner of the Intelligence bureau, and arranging her release could take weeks. But they promised that if we return their prisoners now, they will ensure Katya's release and return her to us soon."`
+			choice
+				`	"How do we know they won't break that promise?"`
+				`	"Why not just keep the prisoners until we have Katya back safely?"`
+			`	Freya sighs. "Alondo claims that the admirals value their honor so highly that we can trust their promise. I am not so sure. Even if the admirals do their best, what if Intelligence refuses to honor the deal we make?"`
+			`	Alondo says, "On the other hand, if we release these prisoners on parole as a gesture of good faith, it could bring us much closer to a diplomatic end to this war. Which would be far preferable to another battle as bloody as this one."`
+			`	Freya says, "And meanwhile, JJ is off on a top secret mission. And that means he's not available to consult with, and we need to make this decision now."`
+			`	"And since we cannot agree," says Alondo, "we are giving you the deciding vote."`
+			choice
+				`	"What do you mean?"`
+			`	"We will be putting you in charge of the prisoner convoy," says Alondo, "and arranging a week of safe passage for you. If you think we should return the prisoners as a gesture of goodwill to improve our chances of a diplomatic end to this war, bring the convoy to <planet>."`
+			`	"But if you think we should hold on to the prisoners until we receive Katya safely back," says Freya, "bring the convoy to Clink. Understand?"`
+			`	It's a serious choice facing you, with no clear right decision. You thank them for trusting you, and begin preparations to escort the prisoners.`
+				accept
+
+	on accept
+		event "fw safe passage starts"
+		event "fw safe passage ends" 7
+
+	npc accompany save
+		government "Escort"
+		personality timid escort
+		ship "Blackbird (Prisoner Transport)" "F.S. Charity"
+		ship "Blackbird (Prisoner Transport)" "F.S. Good Hope"
+		ship "Blackbird (Prisoner Transport)" "F.S. Stoutheart"
+		ship "Blackbird (Prisoner Transport)" "F.S. Nightingale"
+		ship "Blackbird (Prisoner Transport)" "F.S. Turtledove"
+	npc
+		government Republic
+		personality staying uninterested
+		system "Kaus Borealis"
+		fleet "Large Republic" 4
+
+	on visit
+		dialog "You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system."
+
+	on complete
+		karma ++
+		log "Was given the choice of what to do with the Navy prisoners from the battle for Rastaban, and decided to parole and release them rather than imprisoning them. Hopefully that will earn some goodwill from the Navy in the future."
+
+
+
+mission "FW Southern Prisoners - Keep"
+	name "Keep Navy Prisoners"
+	description "Rather than releasing the Navy prisoners, deliver them to the mines on Clink, to be held until Katya is returned to you."
+	source Dancer
+	destination Clink
+	to offer
+		has "FW Southern Battle 3: done"
+	to fail
+		has "FW Southern Prisoners - Release: done"
+
+	on complete
+		karma --
+		event "fw prison on Clink"
+		log "Was given the choice of what to do with the Navy prisoners from the battle for Rastaban, and decided to imprison them on Clink. Hopefully that will weaken the Navy, a little bit."
+
+
+
+mission "FW Southern Prisoners - Released"
+	landing
+	name "Report to Dancer"
+	description "Report back to Freya and Alondo on Dancer that you chose to release the prisoners."
+	source "New Iceland"
+	destination Dancer
+	to offer
+		has "FW Southern Prisoners - Release: done"
+	on fail
+		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+
+	on offer
+		conversation
+			`<origin> has become the home of a major Navy base almost overnight; the number of ships and people here is almost overwhelming. You return the prisoners, who have all taken an oath of parole to take no further part in the war against the Free Worlds. One of the four Navy admirals who you and Alondo met with earlier is here, and as you are unloading the prisoners, he says, "More volunteers for the 'Oathkeepers,' I see."`
+			choice
+				`	"Who are the 'Oathkeepers'?"`
+			`	"The officers you granted parole to months ago. We reassigned them all to duty in the north, patrolling for pirates."`
+			`	"You mean they really do honor their promise not to fight us?" you ask.`
+			`	"Of course. They swore a vow, after all." You suspect it's not quite that simple, but decide that questioning this admiral's word would be pointless. As you are getting ready to leave, he says, "Don't worry, we will be returning Miss Reynolds to you shortly. The ship carrying her should arrive here in a week or two."`
+			`	You hope he is telling the truth. Now, it is time to meet with Freya and Alondo and decide what should be done next.`
+				launch
+
+	npc accompany save
+		government "Escort"
+		personality timid escort
+		ship "Blackbird" "F.S. Charity"
+		ship "Blackbird" "F.S. Good Hope"
+		ship "Blackbird" "F.S. Stoutheart"
+		ship "Blackbird" "F.S. Nightingale"
+		ship "Blackbird" "F.S. Turtledove"
+	npc
+		government Republic
+		personality staying uninterested
+		system "Kaus Borealis"
+		fleet "Large Republic" 4
+
+	on visit
+		dialog "You have reached <planet>, but you left part of your convoy behind! Better depart and wait for them to arrive in this star system."
+	on complete
+		set "fw delivered prisoners"
+
+
+
+mission "FW Southern Prisoners - Kept"
+	landing
+	name "Report to Dancer"
+	description "Report back to Freya and Alondo on Dancer that you chose to keep the prisoners on Clink."
+	source Clink
+	destination Dancer
+	to offer
+		has "FW Southern Prisoners - Keep: done"
+	on fail
+		dialog `You have failed an essential Free Worlds mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+
+	on offer
+		conversation
+			`You drop off the prisoners at the mines of Clink, to be held until the Navy returns Katya to you. Now, it's time to meet with Freya and Alondo and decide what should be done next.`
+				accept
+	on complete
+		set "fw delivered prisoners"
