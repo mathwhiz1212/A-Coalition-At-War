@@ -71,7 +71,9 @@ mission "Choose a Side"
   description "Choose one side over the other."
   landing
   source "Tebuteb's Table"
-  destination "Tebuteb's Table"
+
+  to offer
+    has "Investigate the Anomaly: done"
 
   on offer
     dialog "Pick a side."
@@ -84,25 +86,31 @@ mission "Quarg"
 
   to offer
     has "Investigate the Anomaly: done"
-    has "Choose a Side: active"
+    has "Choose a Side: offered"
 
   to fail
     has "Coalition: done"
 
   on complete
-    dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. You now have access to select Quarg outfits.`
+    dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. One of the Quarg turns to you and says, "In view of your recent contributions to our defense against the Coalition, we have chosen to give you an honorary position as a Quarg warrior. You now have access to select Quarg outfits. You are also a fugitive from the Coalition.`
+    "reputation: Heliarch" = -1000
+    "reputation: Coalition" = -1000
+    "reputation: Quarg" = 1000
 
 mission "Coalition"
   description "Choose the Coalition"
   landing
-  destination "Tebuteb's Table"
+  destination "Ring of Friendship"
 
   to offer
     has "Investigate the Anomaly: done"
-    has "Choose a Side: active"
+    has "Choose a Side: offered"
 
   to fail
     has "Quarg: done"
 
   on complete
-    dialog `You now have access to select Heliarch outfits.`
+    dialog `In view of your contributions to the war with the Quarg we are elevating you to the rank of Heliarch. You now have access to select Heliarch outfits. You are now a fugitive from the Quarg.`
+    "reputation: Heliarch" = 1000
+    "reputation: Coalition" = 1000
+    "reputation: Quarg" = -1000
