@@ -82,13 +82,27 @@ mission "Quarg"
   landing
   destination "Forpelog"
 
+  to offer
+    has "Investigate the Anomaly: done"
+    has "Choose a Side: active"
+
+  to fail
+    has "Coalition: done"
+
   on complete
-    dialog `You now have access to select Quarg outfits.`
+    dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. You now have access to select Quarg outfits.`
 
 mission "Coalition"
   description "Choose the Coalition"
   landing
   destination "Tebuteb's Table"
+
+  to offer
+    has "Investigate the Anomaly: done"
+    has "Choose a Side: active"
+
+  to fail
+    has "Quarg: done"
 
   on complete
     dialog `You now have access to select Heliarch outfits.`
