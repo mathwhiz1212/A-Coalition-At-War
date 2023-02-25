@@ -39,16 +39,16 @@ ship "Quarg Skydragon"
 
 	engine -15 117
 	engine 15 117
-  engine -17 119
-  engine 17 119
+	engine -17 119
+	engine 17 119
 	turret -12 -80 "Quarg Skylance"
 	turret 12 -80 "Quarg Skylance"
 	turret -34 24 "Quarg Anti-Missile"
 	turret 34 24 "Quarg Anti-Missile"
-  turret -14 -82 "Quarg Skylance"
-  turret 14 -82 "Quarg Skylance"
-  turret -36 26 "Quarg Anti-Missile"
-  turret 36 26 "Quarg Anti-Missile"
+	turret -14 -82 "Quarg Skylance"
+	turret 14 -82 "Quarg Skylance"
+	turret -36 26 "Quarg Anti-Missile"
+	turret 36 26 "Quarg Anti-Missile"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
