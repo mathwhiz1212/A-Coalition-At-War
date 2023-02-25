@@ -16,3 +16,11 @@ event `heliarch prototype`
   planet Forpelog
     shipyard "Quarg"
     outfitter "Quarg Wartime"
+
+event `new ACAW ships`
+
+  system "Southern Wormhole"
+    add fleet "Heliarch Longsword" 600
+
+  system "Southern Wormhole 2"
+    add fleet "Quarg Skydragon" 300

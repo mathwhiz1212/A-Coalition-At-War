@@ -22,13 +22,24 @@ fleet "Large Quarg (Wormhole)"
 #		"Quarg Skylark" 3
 #		"Quarg Wardragon"
 
-fleet "Quarg (Wormhole)"
+#fleet "Quarg (Wormhole)"
+#	government "Quarg"
+#	names "quarg"
+#	cargo 1
+#	personality
+#		heroic disables
+#
+#variant 2
+#	"Quarg Skylark"
+#	"Quarg Wardragon"
+#
+
+fleet "Quarg Skydragon"
 	government "Quarg"
 	names "quarg"
 	cargo 1
 	personality
 		heroic disables
 
-variant 2
-	"Quarg Skylark"
-	"Quarg Wardragon"
+	variant
+		"Quarg Skydragon"
