@@ -1,5 +1,5 @@
-ship "Emerald Longsword"
-	name "Emerald Longsword"
+ship "Heliarch Longsword"
+	name "Heliarch Longsword"
 	sprite ship/emeraldsword
 	thumbnail thumbnail/emeraldsword
 	swizzle 3

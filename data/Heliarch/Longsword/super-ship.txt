@@ -13,14 +13,14 @@ mission `Observe the Heliarch's New Prototype`
             confusion 0
         government "Heliarch"
 		system "Southern Wormhole 2"
-		ship "Emerald Longsword" "Emerald Longsword"
+		ship "Heliarch Longsword" "Heliarch Longsword"
 
 	npc
         personality staying
             confusion 0
         government "Heliarch"
   	system "Southern Wormhole 2"
-		ship "Emerald Longsword" "Emerald Longsword 2"
+		ship "Heliarch Longsword" "Heliarch Longsword 2"
 
 	npc
 				personality heroic disables
