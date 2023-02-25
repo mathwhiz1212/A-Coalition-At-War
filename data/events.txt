@@ -10,3 +10,8 @@ event "bad news"
   system "Southern Wormhole 2"
     add fleet "Large Quarg (Wormhole)" 300
     add fleet "Heliarch (Wormhole)" 1200
+
+event `heliarch prototype`
+  planet Forpelog
+    shipyard "Quarg"
+    outfitter "Quarg Wartime"
