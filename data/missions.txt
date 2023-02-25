@@ -92,8 +92,7 @@ mission "Quarg"
     has "Coalition: done"
 
   on complete
-    dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. One of the Quarg turns to you and says, "In view of your recent contributions to our defense against the Coalition, we have chosen to give you an honorary position as a Quarg warrior. You now have access to select Quarg outfits. You are also a fugitive from the Coalition.`
-dialog `There may be a special mission or two on the job board.`
+    dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. One of the Quarg turns to you and says, "In view of your recent contributions to our defense against the Coalition, we have chosen to give you an honorary position as a Quarg warrior. You now have access to select Quarg outfits. There may be a special mission or two on the job board. You are also a fugitive from the Coalition.`
     "reputation: Heliarch" = -1000
     "reputation: Coalition" = -1000
     "reputation: Quarg" = 1000
@@ -125,16 +124,16 @@ mission "Coalition"
 #      add outfitter "Heliarch Advanced"
 
 mission `Observe the Heliarch's New Prototype`
-	description `Observe the Heliarch's New Ship Prototype`
-	job
+  description `Observe the Heliarch's New Ship Prototype`
+  job
 
-	waypoint "Southern Wormhole 2"
+  waypoint "Southern Wormhole 2"
 
-	on accept
-		dialog `Observe the Heliarch's new ship prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance.`
-		dialog `The Quarg are sending one of their new "Skydragon" ships with you on this mission.`
+  on accept
+    dialog `Observe the Heliarch's new ship prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance.`
+    dialog `The Quarg are sending one of their new "Skydragon" ships with you on this mission.`
 
-	npc
+  npc
         personality staying
             confusion 0
         government "Heliarch"
