@@ -1,7 +1,7 @@
 system "Southern Wormhole"
 	pos -620.587 720.051
 	link Tebuteb
-    attributes "wormhole"
+	attributes "wormhole"
 	arrival 2560
 	habitable 2560
 	belt 1635
@@ -16,4 +16,4 @@ planet "Wormhole Quarg"
 	spaceport "yo"
 
 system Tebuteb
-	 add link "Southern Wormhole"
+	add link "Southern Wormhole"

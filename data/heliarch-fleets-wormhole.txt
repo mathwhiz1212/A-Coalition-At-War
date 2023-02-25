@@ -9,7 +9,7 @@ fleet "Heliarch (Wormhole)"
 
 	variant 10
 		"Heliarch Punisher" 3
-  variant 10
+	variant 10
 		"Heliarch Punisher (Burst Fire)" 3
 	variant 1
 		"Heliarch Punisher (Interdicting)" 4
