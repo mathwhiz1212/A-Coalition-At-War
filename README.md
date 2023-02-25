@@ -10,7 +10,7 @@ There's only a couple missions currently. See "Contributing" below if you have a
 
 ## Installing
 
-1. Download the plugin here: https://github.com/mathwhiz1212/A-Coalition-At-War/archive/refs/tags/v0.0.3a.zip
+1. Download the plugin here: [https://github.com/mathwhiz1212/A-Coalition-At-War/releases](https://github.com/mathwhiz1212/A-Coalition-At-War/releases)
 
 2. Put it in your plugins folder:
 
