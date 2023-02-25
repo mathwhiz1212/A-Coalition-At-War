@@ -13,12 +13,12 @@ fleet "Large Quarg (Wormhole)"
 	variant 2
 		"Quarg Wardragon" 2
 		"Quarg Skylark"
-	variant
-		"Quarg Skylark" 2
-		"Quarg Wardragon" 2
-	variant
-		"Quarg Wardragon" 3
-		"Quarg Skylark"
-	variant
-		"Quarg Skylark" 3
-		"Quarg Wardragon"
+#	variant
+#		"Quarg Skylark" 2
+#		"Quarg Wardragon" 2
+#	variant
+#		"Quarg Wardragon" 3
+#		"Quarg Skylark"
+#	variant
+#		"Quarg Skylark" 3
+#		"Quarg Wardragon"
