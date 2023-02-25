@@ -123,4 +123,37 @@ mission "Coalition"
 #    planet "Tebuteb's Table"
 #      add outfitter "Heliarch Advanced"
 
+mission `Observe the Heliarch's New Prototype`
+	description `Observe the Heliarch's New Ship Prototype`
+	job
+	repeat
+
+	waypoint "Southern Wormhole 2"
+
+	on accept
+		dialog `Observe the Heliarch's new ship prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance.`
+		dialog `The Quarg are sending one of their new "Skydragon" ships with you on this mission.`
+
+	npc
+        personality staying
+            confusion 0
+        government "Heliarch"
+		system "Southern Wormhole 2"
+		ship "Heliarch Longsword" "Heliarch Longsword"
+
+	npc
+				personality heroic disables
+					confusion 0
+				government "Quarg"
+		ship "Quarg Skydragon" "Quarg Skydragon"
+
+	on complete
+		dialog `You tell the Quarg how powerful the new ships are and how they appeared to use Skylances as well as salvaged Sheragi technology. They took out several Quarg ships before they were taken down. The Quarg in charge grimly thanks you for the information. "We must make preparations to counter this new threat."`
+		dialog `Since you have proven yourself trustworthy, we do not want you to be unable to survive future missions. We are therefore allowing you to purchase our normal ships. They are not cheap, so we will also let you purchase antimatter cores. If you are caught sharing any of our technology with anyone else, we will destroy you.`
+		dialog `You are happy that you can now buy Quarg ships and antimatter cores, but you don't like the sound of "we will destroy you if you share our technology with anyone else". They really don't want it falling into the wrong hands.`
+		dialog `You must leave and land again to gain access to the shipyard.`
+		event `heliarch prototype`
+		event `new ACAW ships`
+
 # Add jump drive looting missions to Coalition Branch.
+# Add steal blueprint missions to both branches. Nerf big ship spawns until the mission is complete.
