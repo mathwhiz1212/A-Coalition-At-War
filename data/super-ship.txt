@@ -10,12 +10,12 @@ mission "Capture a Wardragon"
 		system "Sadalsuud"
 		ship "Emerald Longsword" "Emerald Longsword"
 
-    npc
-          personality staying
-              confusion 0
-          government "Heliarch"
-  		system "Sadalsuud"
-  		ship "Emerald Longsword" "Emerald Longsword 2"
-
+  npc
+        personality staying
+            confusion 0
+        government "Heliarch"
+  	system "Sadalsuud"
+		ship "Emerald Longsword" "Emerald Longsword 2"
+    
 	on complete
 		dialog "Congratulations <first>, You have obtained an extremely powerful warship. It is not invincible, but it can do great things if used wisely."
