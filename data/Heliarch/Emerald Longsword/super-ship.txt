@@ -1,12 +1,12 @@
 mission `Observe the Heliarch's New Prototype`
-	description `Observe the Heliarch's New Prototype`
+	description `Observe the Heliarch's New Ship Prototype`
 	job
 	repeat
 
 	waypoint "Southern Wormhole 2"
 
 	on accept
-		dialog `Observe the Heliarch's new prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance.`
+		dialog `Observe the Heliarch's new ship prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance.`
 
 	npc
         personality staying
