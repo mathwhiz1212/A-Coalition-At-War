@@ -10,15 +10,18 @@ There's only a couple missions currently. See "Contributing" below if you have a
 
 ## Installing
 
-Download the plugin here: https://github.com/mathwhiz1212/A-Coalition-At-War/archive/refs/tags/v0.0.3a.zip
+1. Download the plugin here: https://github.com/mathwhiz1212/A-Coalition-At-War/archive/refs/tags/v0.0.3a.zip
 
-Put it in your plugins folder:
+2. Put it in your plugins folder:
 
 Windows: `%APPDATA%\endless-sky\plugins/`
 
 Mac: `~/Library/ApplicationSupport/endless-sky/plugins/`
 
 Linux: `~/.local/share/endless-sky/plugins/`
+
+3. Unzip the .zip file.
+4. If you have problems, open an issue: https://github.com/mathwhiz1212/A-Coalition-At-War/issues/new/choose
 
 ## Using
 
