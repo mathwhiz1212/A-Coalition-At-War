@@ -8,16 +8,16 @@ fleet "Heliarch (Wormhole)"
 # "disables" because they don't want to make the Quarg too angry. I might drop it if it doesn't fit the Lore. What do you think?
 
 	variant 10
-		"Heliarch Punisher" 2
+		"Heliarch Punisher" 1
 	variant 10
-		"Heliarch Punisher (Burst Fire)" 2
+		"Heliarch Punisher (Burst Fire)" 1
 	variant 1
-		"Heliarch Punisher (Interdicting)" 2
+		"Heliarch Punisher (Interdicting)" 1
 	variant 7
-		"Heliarch Punisher (Ions)" 2
+		"Heliarch Punisher (Ions)" 1
 	variant 1
-		"Heliarch Punisher (Missile)" 2
+		"Heliarch Punisher (Missile)" 1
 	variant 1
-		"Heliarch Punisher (Pure Finishers)" 2
+		"Heliarch Punisher (Pure Finishers)" 1
 	variant 1
-		"Heliarch Punisher (Scrappy)" 2
+		"Heliarch Punisher (Scrappy)" 1

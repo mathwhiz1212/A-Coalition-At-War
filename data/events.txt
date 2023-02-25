@@ -5,11 +5,12 @@ event "bad news"
 
   system "Southern Wormhole"
       add fleet "Heliarch (Wormhole)" 300
-      add fleet "Large Quarg (Wormhole)" 1200
+#Doesn't fit Quarg Lore.      add fleet "Large Quarg (Wormhole)" 1200
 
   system "Southern Wormhole 2"
     add fleet "Large Quarg (Wormhole)" 300
-    add fleet "Heliarch (Wormhole)" 1200
+#    add fleet "Heliarch (Wormhole)" 1200
+
 
 event `heliarch prototype`
   planet Forpelog
