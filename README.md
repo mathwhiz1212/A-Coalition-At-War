@@ -8,6 +8,20 @@ There's only a couple missions currently. See "Contributing" below if you have a
 
 # Getting Started
 
+## Installing
+
+Download the plugin here: https://github.com/mathwhiz1212/A-Coalition-At-War/archive/refs/tags/v0.0.3a.zip
+
+Put it in your plugins folder:
+
+Windows: `%APPDATA%\endless-sky\plugins/`
+
+Mac: `~/Library/ApplicationSupport/endless-sky/plugins/`
+
+Linux: `~/.local/share/endless-sky/plugins/`
+
+## Using
+
 Land on Tebuteb's Table in the Tebuteb system and you will be asked to investigate an anomaly. Accept the mission and you'll be on your way.
 
 # Contributing
