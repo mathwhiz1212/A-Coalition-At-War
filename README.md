@@ -29,7 +29,7 @@ Land on Tebuteb's Table in the Tebuteb system and you will be asked to investiga
 
 # Contributing
 
-The story needs work. Give me story ideas and I might turn them into missions.
+Please give me mission ideas.
 
 [Feature Requests](https://github.com/mathwhiz1212/A-Coalition-At-War/issues/new?template=feature_request.md)
 
