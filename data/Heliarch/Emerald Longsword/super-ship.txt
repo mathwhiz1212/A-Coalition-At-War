@@ -1,21 +1,26 @@
-mission "Capture a Wardragon"
-	description "Capture the wardragon"
+mission `Observe the Heliarch's New Prototype`
+	description `Observe the Heliarch's New Prototype`
 	job
 	repeat
+
+	waypoint "Southern Wormhole 2"
+
+	on accept
+		dialog `Observe the Heliarch's new prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance.`
 
 	npc
         personality staying
             confusion 0
         government "Heliarch"
-		system "Sadalsuud"
+		system "Southern Wormhole 2"
 		ship "Emerald Longsword" "Emerald Longsword"
 
   npc
         personality staying
             confusion 0
         government "Heliarch"
-  	system "Sadalsuud"
+  	system "Southern Wormhole 2"
 		ship "Emerald Longsword" "Emerald Longsword 2"
-    
+
 	on complete
-		dialog "Congratulations <first>, You have obtained an extremely powerful warship. It is not invincible, but it can do great things if used wisely."
+		dialog `You tell the Quarg how powerful the new ships are and how they appeared to use Skylances as well as salvaged Sheragi technology. They took out several Quarg ships before they were taken down. The Quarg in charge grimly thanks you for the information. "We must make preparations to counter this new threat."`
