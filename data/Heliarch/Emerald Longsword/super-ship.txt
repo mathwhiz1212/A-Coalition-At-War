@@ -15,12 +15,18 @@ mission `Observe the Heliarch's New Prototype`
 		system "Southern Wormhole 2"
 		ship "Emerald Longsword" "Emerald Longsword"
 
-  npc
+	npc
         personality staying
             confusion 0
         government "Heliarch"
   	system "Southern Wormhole 2"
 		ship "Emerald Longsword" "Emerald Longsword 2"
+
+	npc
+				personality heroic disables
+					confusion 0
+				government "Quarg"
+		ship "Quarg Skydragon" "Quarg Skydragon"
 
 	on complete
 		dialog `You tell the Quarg how powerful the new ships are and how they appeared to use Skylances as well as salvaged Sheragi technology. They took out several Quarg ships before they were taken down. The Quarg in charge grimly thanks you for the information. "We must make preparations to counter this new threat."`
