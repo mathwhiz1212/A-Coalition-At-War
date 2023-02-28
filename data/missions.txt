@@ -69,7 +69,7 @@ mission "Investigate the Anomaly"
 # Let's do a location choice instead.
 
 mission "Choose a Side"
-  description "Choose one side over the other."
+  description "Return to this planet when you're ready to choose between joining the Quarg and joining the Coalition."
   landing
   source "Tebuteb's Table"
 
