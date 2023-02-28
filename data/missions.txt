@@ -155,6 +155,13 @@ mission `Observe the Heliarch's New Prototype`
         ship "Heliarch Longsword" "Heliarch Longsword"
 
   npc
+        personality staying
+            confusion 0
+        government "Heliarch"
+        system "Southern Wormhole 2"
+        ship "Heliarch Longsword 2" "Heliarch Longsword 2"
+
+  npc
         personality heroic disables
             confusion 0
         government "Quarg"
