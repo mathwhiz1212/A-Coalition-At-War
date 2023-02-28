@@ -1,10 +1,10 @@
 # A Coalition at War
 
-You hear a lot about the conflict between the Coalition and the Quarg in Endless Sky, but you never see it. This plugin introduces a storyline that lets you see or join that conflict. You can loot Quarg ships or capture Heliarch ships depending on the side you choose. You can start the few implemented missions by landing on "Tebuteb's Table" in the Tebuteb system and accept the anamoly mission.
+You hear a lot about the conflict between the Coalition and the Quarg in Endless Sky, but you never see it. This plugin introduces a storyline that lets you see or join that conflict. You can gain access to Quarg or Heliarch tech depending on the side you choose. 
 
-The Quarg side has the most missions at present.
+You can start the few implemented missions by landing on "Tebuteb's Table" in the Tebuteb system and accept the anamoly mission.
 
-There's only a couple missions currently. See "Contributing" below if you have any ideas for more.
+The Quarg side has the most missions at present. See "Contributing" below if you have any ideas for more missions.
 
 # Getting Started
 
@@ -29,7 +29,7 @@ Land on Tebuteb's Table in the Tebuteb system and you will be asked to investiga
 
 # Contributing
 
-The story needs work. Give me story ideas and I might turn them into missions.
+Please give me mission ideas.
 
 [Feature Requests](https://github.com/mathwhiz1212/A-Coalition-At-War/issues/new?template=feature_request.md)
 
