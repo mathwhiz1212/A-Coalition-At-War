@@ -79,7 +79,7 @@ mission "Choose a Side"
     dialog "Pick a side by leaving and coming back to this planet. You will then get two new missions. One will lead to Heliarch, the other to the Quarg. If you go to the Heliarch planet, you will join them and be a fugitive from the Quarg. If you to the Quarg planet you will join them and be a fugitive from the Coalition. If you don't want to continue the story yet, leave and don't go to either world until you are ready."
     accept
 
-mission "Quarg"
+mission "Choose the Quarg"
   description "Choose the Quarg"
   landing
   destination "Forpelog"
@@ -89,7 +89,7 @@ mission "Quarg"
     has "Choose a Side: offered"
 
   to fail
-    has "Coalition: done"
+    has "Choose the Coalition: done"
 
   on complete
     dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. One of the Quarg turns to you and says, "In view of your recent contributions to our defense against the Coalition, we have chosen to give you an honorary position as a Quarg warrior. You now have access to select Quarg outfits. There may be a special mission or two on the job board. You are also a fugitive from the Coalition.`
@@ -101,7 +101,7 @@ mission "Quarg"
 
 #    planet Forpelog
 
-mission "Coalition"
+mission "Choose the Coalition"
   description "Choose the Coalition"
   landing
   destination "Ring of Friendship"
@@ -111,7 +111,7 @@ mission "Coalition"
     has "Choose a Side: offered"
 
   to fail
-    has "Quarg: done"
+    has "Choose the Quarg: done"
 
   on complete
     dialog `In view of your contributions to the war with the Quarg we are elevating you to the rank of Heliarch. You now have access to select Heliarch outfits sold at "Tebuteb's Table" in the Tebuteb system. You are now a fugitive from the Quarg.`
@@ -137,22 +137,22 @@ mission `Observe the Heliarch's New Prototype`
         personality staying
             confusion 0
         government "Heliarch"
-		system "Southern Wormhole 2"
-		ship "Heliarch Longsword" "Heliarch Longsword"
+        system "Southern Wormhole 2"
+        ship "Heliarch Longsword" "Heliarch Longsword"
 
-	npc
-				personality heroic disables
-					confusion 0
-				government "Quarg"
-		ship "Quarg Skydragon" "Quarg Skydragon"
+  npc
+        personality heroic disables
+            confusion 0
+        government "Quarg"
+     ship "Quarg Skydragon" "Quarg Skydragon"
 
-	on complete
-		dialog `You tell the Quarg how powerful the new ships are and how they appeared to use Skylances as well as salvaged Sheragi technology. They took out several Quarg ships before they were taken down. The Quarg in charge grimly thanks you for the information. "We must make preparations to counter this new threat."`
-		dialog `Since you have proven yourself trustworthy, we do not want you to be unable to survive future missions. We are therefore allowing you to purchase our normal ships. They are not cheap, so we will also let you purchase antimatter cores. If you are caught sharing any of our technology with anyone else, we will destroy you.`
-		dialog `You are happy that you can now buy Quarg ships and antimatter cores, but you don't like the sound of "we will destroy you if you share our technology with anyone else". They really don't want it falling into the wrong hands.`
-		dialog `You must leave and land again to gain access to the shipyard.`
-		event `heliarch prototype`
-		event `new ACAW ships`
+  on complete
+    dialog `You tell the Quarg how powerful the new ships are and how they appeared to use Skylances as well as salvaged Sheragi technology. They took out several Quarg ships before they were taken down. The Quarg in charge grimly thanks you for the information. "We must make preparations to counter this new threat."`
+    dialog `Since you have proven yourself trustworthy, we do not want you to be unable to survive future missions. We are therefore allowing you to purchase our normal ships. They are not cheap, so we will also let you purchase antimatter cores. If you are caught sharing any of our technology with anyone else, we will destroy you.`
+    dialog `You are happy that you can now buy Quarg ships and antimatter cores, but you don't like the sound of "we will destroy you if you share our technology with anyone else". They really don't want it falling into the wrong hands.`
+    dialog `You must leave and land again to gain access to the shipyard.`
+    event `heliarch prototype`
+    event `new ACAW ships`
 
 # Add jump drive looting missions to Coalition Branch.
 # Add steal blueprint missions to both branches. Nerf big ship spawns until the mission is complete.
