@@ -131,6 +131,9 @@ mission `Observe the Heliarch's New Prototype`
 
   waypoint "Southern Wormhole 2"
 
+  to offer
+    has "Choose the Quarg: done"
+
   on accept
     dialog `Observe the Heliarch's new ship prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance.`
     dialog `The Quarg are sending one of their new "Skydragon" ships with you on this mission.`
