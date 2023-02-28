@@ -93,9 +93,9 @@ mission "Choose the Quarg"
 
   on complete
     dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. One of the Quarg turns to you and says, "In view of your recent contributions to our defense against the Coalition, we have chosen to give you an honorary position as a Quarg warrior. You now have access to select Quarg outfits. There may be a special mission or two on the job board. You are also a fugitive from the Coalition.`
-    "reputation: Heliarch" = -1000
-    "reputation: Coalition" = -1000
-    "reputation: Quarg" = 1000
+    "reputation: Heliarch" <?= -10000
+    "reputation: Coalition" <?= -10000
+    "reputation: Quarg" >?= 1000
 #    event "coalition war: quarg branch"
     set "license: Quarg"
 
@@ -115,9 +115,9 @@ mission "Choose the Coalition"
 
   on complete
     dialog `In view of your contributions to the war with the Quarg we are elevating you to the rank of Heliarch. You now have access to select Heliarch outfits sold at "Tebuteb's Table" in the Tebuteb system. You are now a fugitive from the Quarg.`
-    "reputation: Heliarch" = 1000
-    "reputation: Coalition" = 1000
-    "reputation: Quarg" = -1000
+    "reputation: Heliarch" >?= 1000
+    "reputation: Coalition" >?= 1000
+    "reputation: Quarg" <?= -10000
 #    event "coalition war: coalition branch"
     set "license: Heliarch"
 #    planet "Tebuteb's Table"
