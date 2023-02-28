@@ -154,5 +154,7 @@ mission `Observe the Heliarch's New Prototype`
     event `heliarch prototype`
     event `new ACAW ships`
 
+disable mission "Quarg Ships Atrocity"
+
 # Add jump drive looting missions to Coalition Branch.
 # Add steal blueprint missions to both branches. Nerf big ship spawns until the mission is complete.
