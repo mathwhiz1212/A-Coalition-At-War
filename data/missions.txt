@@ -1,3 +1,5 @@
+disable mission "Quarg Ships Atrocity"
+
 mission "Investigate the Anomaly"
   description "Investigate the Anomaly in a nearby system and return to Tebuteb's Table to report what you find."
   landing
@@ -24,7 +26,6 @@ mission "Investigate the Anomaly"
     event "bad news"
 
 # Later on, give Heliarch jump drives they looted from the Quarg as a seperate event.
-# disable mission "Quarg Ships Atrocity"
 
 #mission "tEST YO LOL"
 #	landing
@@ -77,7 +78,8 @@ mission "Choose a Side"
 
   on offer
     dialog "Pick a side by leaving and coming back to this planet. You will then get two new missions. One will lead to Heliarch, the other to the Quarg. If you go to the Heliarch planet, you will join them and be a fugitive from the Quarg. If you to the Quarg planet you will join them and be a fugitive from the Coalition. If you don't want to continue the story yet, leave and don't go to either world until you are ready."
-    accept
+ #   accept
+    event "remove quarg atrocities"
 
 mission "Choose the Quarg"
   description "Choose the Quarg"
@@ -153,8 +155,6 @@ mission `Observe the Heliarch's New Prototype`
     dialog `You must leave and land again to gain access to the shipyard.`
     event `heliarch prototype`
     event `new ACAW ships`
-
-disable mission "Quarg Ships Atrocity"
 
 # Add jump drive looting missions to Coalition Branch.
 # Add steal blueprint missions to both branches. Nerf big ship spawns until the mission is complete.

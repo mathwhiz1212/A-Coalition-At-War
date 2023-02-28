@@ -24,3 +24,7 @@ event `new ACAW ships`
 
   system "Southern Wormhole 2"
     add fleet "Quarg Skydragon" 600
+
+event "remove quarg atrocities"
+    government "Quarg"
+        remove atrocities
