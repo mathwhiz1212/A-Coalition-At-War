@@ -3,45 +3,43 @@ ship "Heliarch Longsword"
 	sprite ship/emeraldsword
 	thumbnail thumbnail/emeraldsword
 	swizzle 3
+	"never disabled"
 	attributes
 		category Superheavy
 		cost 500000000
 		mass 4240
 		bunks 604
-		"cargo space" 338
+		"cargo space" 238
 		drag 40
-		"engine capacity" 460
-		"fuel capacity" 1800
+		"engine capacity" 430
+		"fuel capacity" 500
 		"gun ports" 1
-		"heat dissipation" 0.9
+		"heat dissipation" 0.45
 		hull 90000
 		"outfit space" 2850
 		"required crew" 282
-		shields 75000
+		shields 108000
 		"spinal mount" 1
 		"turret mounts" 16
 		"weapon capacity" 1048
 	outfits
-		"Antimatter Core" 6
-		Hyperdrive
-		"Jump Drive"
-		"Large Heat Shunt" 10
-		"Nanotech Battery"
+		"Antimatter Core" 8
+		"Hyperdrive"
+#Precious		"Jump Drive"
+		"Cooling Module" 18
+#Unnecessary	"Nanotech Battery"
 		"Outfits Expansion" 7
 		"Quantum Deionizer"
-		"Quantum Repair Module" 6
-		"Quantum Keystone"
-		"Quantum Shield Generator" 5
-		"Tier 3 Anti-Missile" 4
-#Was "Point Defense Turrent" 8 
-#This is probably too OP but I'll leave it for now.
-		"Quarg Skylance" 8
-		"Reverser (Lunar Class)" 2
-		"Steering (Stellar Class)" 2
-		"Thruster (Stellar Class)" 2
+		"Quantum Repair Module"
+		"Quantum Shield Generator" 7
+#The Quarg have no missles.		"Quarg Anti-Missile" 4
+		"Quarg Skylance" 12
+		"Large Reverse Module" 2
+		"Medium Graviton Steering" 3
+		"Medium Graviton Thruster" 4
 	crew 290
 	fuel 1800
-	shields 75000
+	shields 108000
 	hull 90000
 	position 305.35426 -313.59447
 	engine 83 275
@@ -111,34 +109,34 @@ ship "Heliarch Longsword"
 	turret -18 -41.5 "Quarg Skylance"
 	turret 18 -41.5 "Quarg Skylance"
 	turret 20 -43.5 "Quarg Skylance"
-	turret -70 70.5 "Tier 3 Anti-Missile" 
-	turret 70 70.5 "Tier 3 Anti-Missile"
+	turret -70 70.5 "Quarg Skylance"
+	turret 70 70.5 "Quarg Skylance"
 	turret 70 70.5 "Quarg Skylance"
 	turret -128.5 174 "Quarg Skylance"
 	turret 128.5 174 "Quarg Skylance"
 	turret 130.5 176 "Quarg Skylance"
-	turret 0 114 "Tier 3 Anti-Missile"
-	turret 0 183 "Tier 3 Anti-Missile"
+	turret 0 114 "Quarg Skylance"
+	turret 0 183 "Quarg Skylance"
 	turret 2 185 "Quarg Skylance"
 	gun 0 -276
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
+	#bay Fighter 0 220.5
+	#	angle -180
+	#	"launch effect" "basic launch"
+	#bay Fighter 0 220.5
+	#	angle -180
+	#	"launch effect" "basic launch"
+	#bay Fighter 0 220.5
+	#	angle -180
+	#	"launch effect" "basic launch"
+	#bay Fighter 0 220.5
+	#	angle -180
+	#	"launch effect" "basic launch"
+	#bay Fighter 0 220.5
+	#	angle -180
+	#	"launch effect" "basic launch"
+	#bay Fighter 0 220.5
+	#	angle -180
+	#	"launch effect" "basic launch"
 	explode "huge explosion" 42
 	explode "large explosion" 39
 	explode "medium e xplosion" 47
@@ -147,3 +145,4 @@ ship "Heliarch Longsword"
 	explode "tiny explosion" 60
 	"final explode" "nuke explosion" 2
 	"final explode" "nuke residue fast" 50
+	description `The Heliarch know their ship are not match for Quarg, so they used stolen Quarg tech and a salvaged alien outfit to create a superweapon. It remains to be seen whether the billions of credits spent in production are worth it.`

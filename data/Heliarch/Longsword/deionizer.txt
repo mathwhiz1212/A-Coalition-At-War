@@ -2,10 +2,10 @@ outfit "Quantum Deionizer"
     category "Systems"
     cost 100000000
     "mass" 300
-    "outfit space" -50
-    "weapon capacity" -200
+    "outfit space" -100
+    "weapon capacity" -240
     "heat generation" 158
-    "energy consumption" 20
+    "energy consumption" 50
     "drag" 20
     "ion protection" 500
     "hull protection" 0.1

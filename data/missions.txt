@@ -125,6 +125,15 @@ mission "Choose the Coalition"
 #    planet "Tebuteb's Table"
 #      add outfitter "Heliarch Advanced"
 
+#mission "Longsword"
+#  landing
+#  source "Ring of Friendship"
+#  repeat
+#
+#  on offer
+#    dialog `have a ship`
+#    give ship "Heliarch Longsword" "Heliarch Longsword"
+
 mission `Observe the Heliarch's New Prototype`
   description `Observe the Heliarch's New Ship Prototype`
   job
@@ -160,4 +169,4 @@ mission `Observe the Heliarch's New Prototype`
     event `new ACAW ships`
 
 # Add jump drive looting missions to Coalition Branch.
-# Add steal blueprint missions to both branches. Nerf big ship spawns until the mission is complete.
+# Add steal blueprint missions to both branches.
