@@ -13,12 +13,12 @@ mission "Choose the Quarg"
     has "Choose the Coalition: done"
 
   on complete
-    dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. One of the Quarg turns to you and says, "In view of your recent contributions to our defense against the Coalition, we have chosen to give you an honorary position as a Quarg warrior. You now have access to select Quarg outfits. There may be a special mission or two on the job board. You are also a fugitive from the Coalition.`
+    dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. One of the Quarg turns to you and says, "In view of your recent contributions to our defense against the Coalition, we have chosen to give you an honorary position as a Quarg warrior. You now have access to select Quarg outfits once you depart and land again. There may be a special mission or two on the job board. You are also a fugitive from the Coalition.`
     "reputation: Heliarch" <?= -10000
     "reputation: Coalition" <?= -10000
     "reputation: Quarg" >?= 1000
-#    event "coalition war: quarg branch"
     set "license: Quarg"
+    event `ACAW: quarg branch`
 
 mission `Observe the Heliarch's New Prototype`
   description `Observe the Heliarch's New Ship Prototype`
