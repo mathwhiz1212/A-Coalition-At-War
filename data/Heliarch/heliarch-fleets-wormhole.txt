@@ -8,16 +8,8 @@ fleet "Heliarch (Wormhole)"
 # "disables" because they don't want to make the Quarg too angry. I might drop it if it doesn't fit the Lore. What do you think?
 
 	variant 10
-		"Heliarch Punisher" 3
-	variant 10
 		"Heliarch Punisher (Burst Fire)" 3
-	variant 1
-		"Heliarch Punisher (Interdicting)" 3
-	variant 7
-		"Heliarch Punisher (Ions)" 3
-	variant 1
-		"Heliarch Punisher (Missile)" 3
-	variant 1
+	variant 10
 		"Heliarch Punisher (Pure Finishers)" 3
 	variant 1
 		"Heliarch Punisher (Scrappy)" 3
@@ -31,3 +23,19 @@ fleet "Heliarch Longsword"
 
 	variant
 		"Heliarch Longsword"
+
+fleet "Heliarch (Jump Wormhole)"
+	government "Heliarch"
+	names "heliarch"
+	fighters "heliarch fighter"
+	cargo 1
+	personality heroic disables
+
+# "disables" because they don't want to make the Quarg too angry. I might drop it if it doesn't fit the Lore. What do you think?
+
+	variant 10
+		"Heliarch Punisher (Jump Burst Fire)" 3
+	variant 10
+		"Heliarch Punisher (Jump Pure Finishers)" 3
+	variant 1
+		"Heliarch Punisher (Jump Scrappy)" 3

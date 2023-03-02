@@ -189,6 +189,7 @@ mission `Looting a Jump Drive (The First Time)`
     dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted.`
     outfit "Jump Drive" -1
     payment 5000000
+    event `quarg jump drives looted`
 
 mission `Looting a Jump Drive`
   description `There is a disabled Quarg ship in the Southern Wormhole 2 system. Loot the jump drive and return for payment. This will require 20 cargo space. You may want to use a cloaking device so you don't die.`

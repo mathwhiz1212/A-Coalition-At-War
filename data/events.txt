@@ -5,12 +5,9 @@ event "bad news"
 
   system "Southern Wormhole"
       add fleet "Heliarch (Wormhole)" 300
-#Doesn't fit Quarg Lore.      add fleet "Large Quarg (Wormhole)" 1200
 
   system "Southern Wormhole 2"
     add fleet "Large Quarg (Wormhole)" 300
-#    add fleet "Heliarch (Wormhole)" 1200
-
 
 event `heliarch prototype`
   planet Forpelog
@@ -28,3 +25,8 @@ event `new ACAW ships`
 event "remove quarg atrocities"
     government "Quarg"
         remove atrocities
+
+event `quarg jump drives looted`
+  system "Southern Wormhole"
+    remove fleet "Heliarch (Wormhole)"
+    add fleet "Heliarch (Jump Wormhole)" 300

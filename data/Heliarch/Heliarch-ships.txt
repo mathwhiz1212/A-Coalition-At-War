@@ -1,0 +1,64 @@
+ship "Heliarch Punisher" "Heliarch Punisher (Jump Burst Fire)"
+	outfits
+		"Finisher Maegrolain" 4
+		"Finisher Storage Tube" 4
+		"Finisher Torpedo" 320
+
+		"Large Reactor Module"
+		"Small Reactor Module"
+		"Large Battery Module"
+		"Overcharged Shield Module" 2
+		"Overclocked Repair Module" 2
+		"Cooling Module" 3
+		"Scanning Module"
+		"Outfits Expansion" 4
+		"Enforcer Riot Staff" 29
+		"Enforcer Confrontation Gear" 113
+
+		"Large Thrust Module" 3
+		"Small Thrust Module" 2
+		"Large Steering Module" 2
+		"Small Steering Module" 3
+		"Jump Drive"
+
+ship "Heliarch Punisher" "Heliarch Punisher (Jump Pure Finishers)"
+	outfits
+		"Finisher Pod" 6
+		"Finisher Storage Tube" 21
+		"Finisher Torpedo" 660
+
+		"Large Reactor Module"
+		"Overcharged Shield Module"
+		"Overclocked Repair Module"
+		"Cooling Module" 4
+		"Scanning Module" 4
+		"Outfits Expansion" 4
+		"Enforcer Riot Staff" 71
+		"Enforcer Confrontation Gear" 40
+
+		"Large Thrust Module" 4
+		"Small Thrust Module"
+		"Large Steering Module" 2
+		"Jump Drive"
+
+ship "Heliarch Punisher" "Heliarch Punisher (Jump Scrappy)"
+	outfits
+		"Bombardment Cannon" 6
+		"Bombardment Turret" 4
+
+		"Large Reactor Module" 2
+		"Small Reactor Module"
+		"Large Battery Module"
+		"Overcharged Shield Module" 2
+		"Overclocked Repair Module" 3
+		"Cooling Module" 5
+		"Scanning Module" 4
+		"Outfits Expansion" 3
+		"Enforcer Riot Staff" 77
+		"Enforcer Confrontation Gear" 45
+
+		"Large Thrust Module" 2
+		"Small Thrust Module"
+		"Large Steering Module" 4
+		"Small Steering Module" 2
+		"Jump Drive"
