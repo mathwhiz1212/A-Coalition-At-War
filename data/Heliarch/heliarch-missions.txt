@@ -65,3 +65,12 @@ mission `Looting a Jump Drive`
     dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted.`
     outfit "Jump Drive" -1
     payment 5000000
+
+#mission "Longsword"
+#  landing
+#  source "Ring of Friendship"
+#  repeat
+
+#  on offer
+#    dialog `have a ship`
+#    give ship "Heliarch Longsword" "Heliarch Longsword"
