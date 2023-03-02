@@ -1,0 +1,54 @@
+disable mission "Quarg Ships Atrocity"
+
+mission "Choose the Quarg"
+  description "Choose the Quarg"
+  landing
+  destination "Forpelog"
+
+  to offer
+    has "Investigate the Anomaly: done"
+    has "Choose a Side: offered"
+
+  to fail
+    has "Choose the Coalition: done"
+
+  on complete
+    dialog `The Quarg lead you deep into the station down dark hallways. You're pretty sure this is a restricted area. One of the Quarg turns to you and says, "In view of your recent contributions to our defense against the Coalition, we have chosen to give you an honorary position as a Quarg warrior. You now have access to select Quarg outfits. There may be a special mission or two on the job board. You are also a fugitive from the Coalition.`
+    "reputation: Heliarch" <?= -10000
+    "reputation: Coalition" <?= -10000
+    "reputation: Quarg" >?= 1000
+#    event "coalition war: quarg branch"
+    set "license: Quarg"
+
+mission `Observe the Heliarch's New Prototype`
+  description `Observe the Heliarch's New Ship Prototype`
+  job
+
+  waypoint "Southern Wormhole 2"
+
+  to offer
+    has "Choose the Quarg: done"
+
+  on accept
+    dialog `The Heliarch have built a new ship prototype and the Quarg are worried it has something to do with increased looting of Quarg ships by the Heliarch. Observe the Heliarch's new ship prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance.`
+    dialog `The Quarg are sending one of their new "Skydragon" ships with you on this mission.`
+
+  npc
+        personality staying
+            confusion 0
+        government "Heliarch"
+        system "Southern Wormhole 2"
+        ship "Heliarch Longsword" "Heliarch Longsword"
+  npc
+        personality heroic disables
+            confusion 0
+        government "Quarg"
+     ship "Quarg Skydragon" "Quarg Skydragon"
+
+  on complete
+    dialog `You tell the Quarg how powerful the new ships are and how they appeared to use Skylances as well as salvaged Sheragi technology. They took out several Quarg ships before they were taken down. The Quarg in charge grimly thanks you for the information. "We must make preparations to counter this new threat."`
+    dialog `Since you have proven yourself trustworthy, we do not want you to be unable to survive future missions. We are therefore allowing you to purchase our normal ships. They are not cheap, so we will also let you purchase antimatter cores. If you are caught sharing any of our technology with anyone else, we will destroy you.`
+    dialog `You are happy that you can now buy Quarg ships and antimatter cores, but you don't like the sound of "we will destroy you if you share our technology with anyone else". They really don't want it falling into the wrong hands.`
+    dialog `You must leave and land again to gain access to the shipyard.`
+    event `heliarch prototype`
+    event `new ACAW ships`
