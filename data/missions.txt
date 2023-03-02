@@ -186,10 +186,11 @@ mission `Looting a Jump Drive (The First Time)`
         ship "Quarg Wardragon (jump only)" "Quarg Wardragon"
 
   on complete
-    dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted.`
+    dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted. You may now buy looted Quarg outfits in the future when you come to the Ring of Fellowship. You must leave and land again before they will become available.`
     outfit "Jump Drive" -1
     payment 5000000
     event `quarg jump drives looted`
+    event `quarg ships looted`
 
 mission `Looting a Jump Drive`
   description `There is a disabled Quarg ship in the Southern Wormhole 2 system. Loot the jump drive and return for payment. This will require 20 cargo space. You may want to use a cloaking device so you don't die.`

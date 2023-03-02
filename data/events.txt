@@ -30,3 +30,7 @@ event `quarg jump drives looted`
   system "Southern Wormhole"
     remove fleet "Heliarch (Wormhole)"
     add fleet "Heliarch (Jump Wormhole)" 300
+
+event `quarg ships looted`
+  planet "Ring of Friendship"
+    add outfitter "Quarg Loot"
