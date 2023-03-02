@@ -12,7 +12,9 @@ The Quarg side has the most missions at present. See "Contributing" below if you
 
 1. Download the plugin here: [https://github.com/mathwhiz1212/A-Coalition-At-War/releases](https://github.com/mathwhiz1212/A-Coalition-At-War/releases)
 
-2. Put it in your plugins folder:
+2. Decompress or "Unzip" the zip file.
+
+2. Put the unzipped folder in your plugins folder:
 
 Windows: `%APPDATA%\endless-sky\plugins/`
 
