@@ -41,7 +41,8 @@ ship "Heliarch Longsword"
 #		"Large Thrust Module" 6
 #		"Medium Graviton Steering" 2
 		"Medium Graviton Thruster" 2
-	crew 290
+		"Intrusion Countermeasures" 600
+	crew 600
 	fuel 1800
 	shields 216000
 	hull 170000
