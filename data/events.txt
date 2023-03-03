@@ -45,6 +45,16 @@ event `quarg jump drives looted`
   system "Southern Wormhole"
     remove fleet "Heliarch (Wormhole)"
     add fleet "Heliarch (Jump Wormhole)" 300
+    add fleet `Heliarch Longsword` 2400
+
+  system "Southern Wormhole 2"
+    add fleet `Quarg Skydragon` 600
+
+  planet "Ring of Friendship"
+    add shipyard "Heliarch Wartime"
+    add shipyard "Arach"
+    add shipyard "Kimek"
+    add shipyard "Saryd"
 
 event `quarg ships looted`
   planet "Ring of Friendship"

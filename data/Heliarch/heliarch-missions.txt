@@ -39,7 +39,8 @@ mission `Looting a Jump Drive (The First Time)`
         ship "Quarg Wardragon (jump only)" "Quarg Wardragon"
 
   on complete
-    dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted. You may now buy looted Quarg outfits in the future when you come to the Ring of Fellowship. You must leave and land again before they will become available.`
+    dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted. "We would like you to live long enough to be useful to us, so you may now buy looted Quarg outfits and Heliarch warships in the future when you come to the Ring of Fellowship. You must leave and land again before they will become available."`
+    dialog `You may see our new Heliarch Longsword in the wormhole systems from time to time. It's not very strong compared to a Quarg ship, but if you put it in a fleet it is a very strong missile boat. You may also see the new Quarg Skydragon. Do not underestimate that one.`
     outfit "Jump Drive" -1
     payment 5000000
     event `quarg jump drives looted`
