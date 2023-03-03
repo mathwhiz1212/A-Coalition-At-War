@@ -6,8 +6,9 @@ mission "Choose the Quarg"
   destination "Forpelog"
 
   to offer
-    has "Investigate the Anomaly: done"
-    has "Choose a Side: offered"
+    or
+      has "Choose a Side (Coalition Source): offered"
+      has "Choose a Side (Quarg Source): offered"
 
   to fail
     has "Choose the Coalition: done"

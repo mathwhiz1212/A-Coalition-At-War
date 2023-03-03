@@ -7,14 +7,15 @@ mission "Choose the Coalition"
   destination "Ring of Friendship"
 
   to offer
-    has "Investigate the Anomaly: done"
-    has "Choose a Side: offered"
+    or
+      has "Choose a Side (Coalition Source): offered"
+      has "Choose a Side (Quarg Source): offered"
 
   to fail
     has "Choose the Quarg: done"
 
   on complete
-    dialog `In view of your contributions to the war with the Quarg we are elevating you to the rank of Heliarch. You now have access to select Heliarch outfits sold at "Tebuteb's Table" in the Tebuteb system. You may find a special mission or two on the job board. You are now a fugitive from the Quarg.`
+    dialog `In view of your contributions to the war with the Quarg we are elevating you to the rank of Heliarch. You now have access to select Heliarch outfits sold here (next time you land) and at "Tebuteb's Table" in the Tebuteb system. You may find a special mission or two on the job board. You are now a fugitive from the Quarg.`
     "reputation: Heliarch" >?= 1000
     "reputation: Coalition" >?= 1000
     "reputation: Quarg" <?= -10000
