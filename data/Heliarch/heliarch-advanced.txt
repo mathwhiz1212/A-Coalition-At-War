@@ -14,7 +14,7 @@ outfitter "Heliarch Advanced"
 	"Overcharged Shield Module"
 	"Overclocked Repair Module"
 	"Scanning Module"
-#OP	"Enforcer Confrontation Gear"
+	"Enforcer Confrontation Gear"
 	"Enforcer Riot Staff"
 
 outfitter "Quarg Loot"
