@@ -2,9 +2,11 @@
 
 You hear a lot about the conflict between the Coalition and the Quarg in Endless Sky, but you never see it. This plugin introduces a storyline that lets you see or join that conflict. You gain access to Quarg or Heliarch tech and warships depending on the side you choose.
 
-You can start the first mission by landing on "Tebuteb's Table" (in the Tebuteb system) or Forpelog (in the Sadalsuud system) and accepting the anamoly mission.
+You can start the first mission by landing on "Tebuteb's Table" (in the Tebuteb system) or Forpelog (in the Sadalsuud system) and accepting the anomaly mission.
 
-There's only one unique mission on each side right now. See "Contributing" below if you have any ideas for more missions.
+This plugin is best enjoyed after finishing the Wanderer Campaign. Getting access to Tier 3 tech makes everything else basically irrelevant.
+
+There's few missions right now. See "Contributing" below if you have any ideas for more missions.
 
 # Getting Started
 
