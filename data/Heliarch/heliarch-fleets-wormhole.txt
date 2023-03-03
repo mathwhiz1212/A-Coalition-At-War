@@ -16,16 +16,6 @@ fleet "Heliarch (Wormhole)"
 #	variant 10
 #		"Heliarch Punisher (Scrappy)" 3
 
-fleet "Heliarch Longsword"
-	government "Heliarch"
-	names "heliarch"
-	fighters "heliarch fighter"
-	cargo 1
-	personality heroic disables
-
-	variant
-		"Heliarch Longsword"
-
 fleet "Heliarch (Jump Wormhole)"
 	government "Heliarch"
 	names "heliarch"
@@ -41,3 +31,25 @@ fleet "Heliarch (Jump Wormhole)"
 		"Heliarch Punisher (Jump Pure Finishers)" 3
 	variant 1
 		"Heliarch Punisher (Jump Scrappy)" 3
+
+fleet "Heliarch (Scrappy)"
+	government "Heliarch"
+	names "heliarch"
+	fighters "heliarch fighter"
+	cargo 1
+	personality heroic disables
+
+# "disables" because they don't want to make the Quarg too angry. I might drop it if it doesn't fit the Lore. What do you think?
+
+	variant 10
+		"Heliarch Punisher (Jump Scrappy)" 5 # One close fighter to distract while the missile boats hammer the Quarg ships.
+
+fleet "Heliarch Longsword"
+	government "Heliarch"
+	names "heliarch"
+	fighters "heliarch fighter"
+	cargo 1
+	personality heroic disables
+
+	variant
+		"Heliarch Longsword"
