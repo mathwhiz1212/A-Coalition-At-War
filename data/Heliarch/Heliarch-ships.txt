@@ -1,3 +1,49 @@
+ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission)"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Heliarch
+		"cost" 58487000
+		"shields" 108000
+		"hull" 85000
+		"required crew" 145
+		"bunks" 145
+		"mass" 780
+		"drag" 12.2
+		"heat dissipation" .60
+		"ion protection" .3
+		"scramble protection" .3
+		"fuel capacity" 600
+		"cargo space" 94
+		"outfit space" 885
+		"weapon capacity" 352
+		"engine capacity" 187
+		weapon
+			"blast radius" 400
+			"shield damage" 4800
+			"hull damage" 2400
+			"hit force" 6000
+	outfits
+		"Finisher Maegrolain" 4
+		"Finisher Storage Tube" 4
+		"Finisher Torpedo" 320
+
+		"Large Reactor Module"
+		"Small Reactor Module"
+		"Large Battery Module"
+		"Overcharged Shield Module" 2
+		"Overclocked Repair Module" 2
+		"Cooling Module" 3
+		"Scanning Module"
+		"Outfits Expansion" 4
+		"Enforcer Confrontation Gear" 145
+
+		"Large Thrust Module" 3
+		"Small Thrust Module" 2
+		"Large Steering Module" 2
+		"Small Steering Module" 3
+		"Jump Drive"
+
 ship "Heliarch Punisher" "Heliarch Punisher (Jump Burst Fire)"
 	outfits
 		"Finisher Maegrolain" 4

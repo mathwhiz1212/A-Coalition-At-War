@@ -21,8 +21,8 @@ event "remove quarg atrocities"
 
 event `heliarch prototype`
   planet Forpelog
-    shipyard "Quarg"
-    outfitter "Quarg Wartime"
+    add shipyard "Quarg"
+    add outfitter "Quarg Wartime"
 
 event `new ACAW ships`
 
@@ -31,6 +31,10 @@ event `new ACAW ships`
 
   system "Southern Wormhole 2"
     add fleet "Quarg Skydragon" 600
+
+event `heliarch loot`
+  planet Forpelog
+    add outfitter "Heliarch Loot"
 
 # Heliarch
 
@@ -59,3 +63,4 @@ event `quarg jump drives looted`
 event `quarg ships looted`
   planet "Ring of Friendship"
     add outfitter "Quarg Loot"
+    set "license: Quarg"
