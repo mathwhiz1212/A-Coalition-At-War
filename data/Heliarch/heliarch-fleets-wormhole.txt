@@ -9,10 +9,10 @@ fleet "Heliarch (Wormhole)"
 
 	variant 10
 		"Heliarch Punisher (Burst Fire)" 2
-		"Heliarch Punisher (Scrappy)" # One close fighter to distract while the missile boats hammer the Quarg ships.
+#		"Heliarch Punisher (Scrappy)" 2 # One close fighter to distract while the missile boats hammer the Quarg ships.
 	variant 10
-		"Heliarch Punisher (Pure Finishers)" 2
-		"Heliarch Punisher (Scrappy)"
+#		"Heliarch Punisher (Pure Finishers)" 2
+		"Heliarch Punisher (Scrappy)" 2
 #	variant 10
 #		"Heliarch Punisher (Scrappy)" 3
 
@@ -27,10 +27,10 @@ fleet "Heliarch (Jump Wormhole)"
 
 	variant 10
 		"Heliarch Punisher (Jump Burst Fire)" 2
-		"Heliarch Punisher (Jump Scrappy)"
+#		"Heliarch Punisher (Jump Scrappy)" 2
 	variant 10
-		"Heliarch Punisher (Jump Pure Finishers)" 2
-		"Heliarch Punisher (Jump Scrappy)"
+#		"Heliarch Punisher (Jump Pure Finishers)" #2
+		"Heliarch Punisher (Jump Scrappy)" 2
 #	variant 10
 #		"Heliarch Punisher (Jump Scrappy)" 2
 #		"Heliarch Punisher (Jump Pure Finishers)"
