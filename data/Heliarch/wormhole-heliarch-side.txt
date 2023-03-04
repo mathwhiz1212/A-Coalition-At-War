@@ -1,5 +1,5 @@
 system "Southern Wormhole"
-	pos -620.587 720.051
+	pos -600.587 720.051
 	link Tebuteb
 	attributes "wormhole"
 	arrival 2560
