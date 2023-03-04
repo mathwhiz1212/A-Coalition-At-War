@@ -1,4 +1,4 @@
-system "Southern Wormhole 2"
+system "Quarg Southern Wormhole"
 	pos -154 528
 	link Sadalsuud
 	attributes "wormhole"
@@ -38,3 +38,6 @@ system "Southern Wormhole 2"
 planet "Wormhole Quarg"
 	description "Wormhole to Coalition space"
 	spaceport "yo"
+
+system Sadalsuud
+	add link "Quarg Southern Wormhole"

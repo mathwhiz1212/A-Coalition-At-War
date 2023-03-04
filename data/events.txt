@@ -1,12 +1,11 @@
 event "bad news"
   system Sadalsuud
-     add link "Southern Wormhole 2"
      add fleet "Large Quarg (Wormhole)" 300
 
-  system "Southern Wormhole"
+  system "Heliarch Southern Wormhole"
       add fleet "Heliarch (Wormhole)" 300
 
-  system "Southern Wormhole 2"
+  system "Quarg Southern Wormhole"
     add fleet "Large Quarg (Wormhole)" 300
 
 # Quarg
@@ -26,10 +25,10 @@ event `heliarch prototype`
 
 event `new ACAW ships`
 
-  system "Southern Wormhole"
+  system "Heliarch Southern Wormhole"
     add fleet "Heliarch Longsword" 2400
 
-  system "Southern Wormhole 2"
+  system "Heliarch Southern Wormhole"
     add fleet "Quarg Skydragon" 600
 
 event `heliarch loot`
@@ -46,12 +45,12 @@ event `ACAW: coalition branch`
     add outfitter "Heliarch Advanced"
 
 event `quarg jump drives looted`
-  system "Southern Wormhole"
+  system "Heliarch Southern Wormhole"
     remove fleet "Heliarch (Wormhole)"
     add fleet "Heliarch (Jump Wormhole)" 300
     add fleet `Heliarch Longsword` 2400
 
-  system "Southern Wormhole 2"
+  system "Heliarch Southern Wormhole"
     add fleet `Quarg Skydragon` 600
 
   planet "Ring of Friendship"

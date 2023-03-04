@@ -25,34 +25,34 @@ mission `Observe the Heliarch's New Prototype`
   description `Observe the Heliarch's New Ship Prototype`
   job
 
-  waypoint "Southern Wormhole 2"
+  waypoint "Quarg Southern Wormhole"
 
   to offer
     has "Choose the Quarg: done"
 
   on accept
-    dialog `The Heliarch have built a new ship prototype and the Quarg are worried it has something to do with increased looting of Quarg ships by the Heliarch. Observe the Heliarch's new ship prototype in Southern Wormhole 2. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance. You will likely need to use your cloaking device for this mission. Feel free to loot the Heliarch ships after the battle.`
+    dialog `The Heliarch have built a new ship prototype and the Quarg are worried it has something to do with increased looting of Quarg ships by the Heliarch. Observe the Heliarch's new ship prototype in Quarg Southern Wormhole. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance. You will likely need to use your cloaking device for this mission. Feel free to loot the Heliarch ships after the battle.`
     dialog `The Quarg are sending one of their new "Skydragon" ships with you on this mission.`
 
   npc
         personality staying
             confusion 0
         government "Heliarch"
-        system "Southern Wormhole 2"
+        system "Quarg Southern Wormhole"
         ship "Heliarch Longsword" "Heliarch Longsword"
 
   npc
         personality staying
             confusion 0
         government "Heliarch"
-        system "Southern Wormhole 2"
+        system "Quarg Southern Wormhole"
         ship "Heliarch Longsword" "Heliarch Longsword 2"
 
 #  npc
 #        personality staying
 #            confusion 0
 #        government "Heliarch"
-#        system "Southern Wormhole 2"
+#        system "Quarg Southern Wormhole"
 #        ship "Heliarch Longsword" "Heliarch Longsword 3"
 
   npc
@@ -73,7 +73,7 @@ mission `Overcharged Shield Modules (The First Time)`
   description `The Quarg want to study the Overcharged Shield Module used by Heliarch Punishers. Loot one of those and return. You'll need 44 cargo space. If the mission Punisher is destroyed and no others spawn, abort the mission, land on Forpelog, and accept the mission again.`
   job
 
-  waypoint "Southern Wormhole 2"
+  waypoint "Quarg Southern Wormhole"
 
   to offer
     has "Observe the Heliarch's New Prototype: done"
@@ -82,14 +82,14 @@ mission `Overcharged Shield Modules (The First Time)`
         personality staying
             confusion 0
         government "Heliarch"
-        system "Southern Wormhole 2"
+        system "Quarg Southern Wormhole"
         ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
 
   to complete
     require "Overcharged Shield Module" 1
 
   on complete
-    dialog `A grateful Quarg official gives you a million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets." Next time you come back, you can also buy outfits we've looted from the Heliarch. He also informs you that you can make money faster by capturing Heliarch ships in the Southern Wormhole 2 system when you accept this mission in the future. Just be patient and stay clear of the main fighting.`
+    dialog `A grateful Quarg official gives you a million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets." Next time you come back, you can also buy outfits we've looted from the Heliarch. He also informs you that you can make money faster by capturing Heliarch ships in the "Quarg Southern Wormhole" system when you accept this mission in the future. Just be patient and stay clear of the main fighting.`
     dialog `We're giving you a captured Kimek Spire to make capturing ships easier.`
     outfit "Overcharged Shield Module" -1
     payment 1000000
@@ -102,7 +102,7 @@ mission `Overcharged Shield Modules`
   job
   repeat
 
-  waypoint "Southern Wormhole 2"
+  waypoint "Quarg Southern Wormhole"
 
   to offer
     has "Overcharged Shield Modules (The First Time): done"
@@ -111,7 +111,7 @@ mission `Overcharged Shield Modules`
         personality staying
             confusion 0
         government "Heliarch"
-        system "Southern Wormhole 2"
+        system "Quarg Southern Wormhole"
         ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
 
   to complete

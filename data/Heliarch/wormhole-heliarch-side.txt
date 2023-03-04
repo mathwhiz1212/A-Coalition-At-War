@@ -1,4 +1,4 @@
-system "Southern Wormhole"
+system "Heliarch Southern Wormhole"
 	pos -600.587 720.051
 	link Tebuteb
 	attributes "wormhole"
@@ -40,4 +40,4 @@ planet "Wormhole Quarg"
 	spaceport "yo"
 
 system Tebuteb
-	add link "Southern Wormhole"
+	add link "Heliarch Southern Wormhole"
