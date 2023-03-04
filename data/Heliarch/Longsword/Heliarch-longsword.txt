@@ -11,42 +11,42 @@ ship "Heliarch Longsword"
 		bunks 1208
 		"cargo space" 238
 		drag 40
-		"engine capacity" 430
+		"engine capacity" 460
 		"fuel capacity" 500
 		"gun ports" 16
 		"heat dissipation" 0.45
-		hull 864000
+		hull 108000
 		"outfit space" 2850
 		"required crew" 282
-		shields 864000
+		shields 216000
 		"spinal mount" 1
 		"turret mounts" 16
 		"weapon capacity" 1422
 		# Heliarch tech
-		"ion protection" 1
-		"scramble protection" 1
+		"ion protection" .5
+		"scramble protection" .5
 	outfits
-		"Antimatter Core" 6
-		"Nanotech Battery" 2
+		"Antimatter Core" 4
+#		"Nanotech Battery" #2
 		"Hyperdrive"
 #		"Cooling Module" 18
 		"Outfits Expansion" 11
 #		"Quantum Deionizer"
 #		"Quantum Repair Module"
-		"Planetary Shield Module"
-#		"Overcharged Shield Module" 17
+#		"Planetary Shield Module"
+		"Overcharged Shield Module" 11
 		"Finisher Maegrolain" 16
-#		"Finisher Storage Tube"
-		"Finisher Torpedo" 960
-		"Large Steering Module" 4
+		"Finisher Storage Tube" 22
+		"Finisher Torpedo" 1400
+#		"Large Steering Module" 1
 #		"Large Thrust Module" 6
-#		"Medium Graviton Steering" 2
-		"Medium Graviton Thruster" 2
+		"Medium Graviton Steering" 2
+		"Medium Graviton Thruster" 5
 		"Intrusion Countermeasures" 1208
 	crew 1208
-	fuel 1800
+	fuel 500
 	shields 216000
-	hull 170000
+	hull 108000
 	position 305.35426 -313.59447
 	engine 83 275
 		zoom 1.3
