@@ -7,10 +7,10 @@ fleet "Large Quarg (Wormhole)"
 
 #Disables because they are peaceful at heart and want the Coalition to stop fighting.
 	variant 2
-		"Quarg Skylark" 2
+		"Quarg Skylark" #2
 		"Quarg Wardragon"
 	variant 2
-		"Quarg Wardragon" 2
+		"Quarg Wardragon" #2
 		"Quarg Skylark"
 #	variant
 #		"Quarg Skylark" 2
