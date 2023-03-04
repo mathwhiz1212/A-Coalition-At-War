@@ -8,17 +8,17 @@ ship "Heliarch Longsword"
 		category Superheavy
 		cost 500000000
 		mass 4240
-		bunks 604
+		bunks 1208
 		"cargo space" 238
 		drag 40
 		"engine capacity" 430
 		"fuel capacity" 500
 		"gun ports" 16
 		"heat dissipation" 0.45
-		hull 170000
+		hull 864000
 		"outfit space" 2850
 		"required crew" 282
-		shields 216000
+		shields 864000
 		"spinal mount" 1
 		"turret mounts" 16
 		"weapon capacity" 1422
@@ -33,7 +33,8 @@ ship "Heliarch Longsword"
 		"Outfits Expansion" 11
 #		"Quantum Deionizer"
 #		"Quantum Repair Module"
-		"Overcharged Shield Module" 17
+		"Planetary Shield Module"
+#		"Overcharged Shield Module" 17
 		"Finisher Maegrolain" 16
 #		"Finisher Storage Tube"
 		"Finisher Torpedo" 960
@@ -41,8 +42,8 @@ ship "Heliarch Longsword"
 #		"Large Thrust Module" 6
 #		"Medium Graviton Steering" 2
 		"Medium Graviton Thruster" 2
-		"Intrusion Countermeasures" 600
-	crew 600
+		"Intrusion Countermeasures" 1208
+	crew 1208
 	fuel 1800
 	shields 216000
 	hull 170000

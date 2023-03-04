@@ -74,7 +74,7 @@ mission `Looting a Jump Drive`
 #  landing
 #  source "Ring of Friendship"
 #  repeat
-
+#
 #  on offer
 #    dialog `have a ship`
 #    give ship "Heliarch Longsword" "Heliarch Longsword"
