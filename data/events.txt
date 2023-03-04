@@ -27,7 +27,7 @@ event `heliarch prototype`
 event `new ACAW ships`
 
   system "Southern Wormhole"
-    add fleet "Heliarch Longsword" 2400
+    add fleet "Heliarch Longsword" 4800
 
   system "Southern Wormhole 2"
     add fleet "Quarg Skydragon" 600
