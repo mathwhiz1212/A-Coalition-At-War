@@ -55,7 +55,7 @@ mission "Investigate the Anomaly (Quarg Source)"
     event "bad news"
 
 mission "Choose a Side (Coalition Source)"
-  description "Return to this planet when you're ready to choose between joining the Quarg and joining the Coalition."
+  description "Return to this planet when you're ready to choose between joining the Quarg and joining the Heliarch."
   landing
   source "Tebuteb's Table"
 
@@ -72,7 +72,7 @@ mission "Choose a Side (Coalition Source)"
     event "remove quarg atrocities"
 
 mission "Choose a Side (Quarg Source)"
-  description "Return to this planet when you're ready to choose between joining the Quarg and joining the Coalition."
+  description "Return to this planet when you're ready to choose between joining the Quarg and joining the Heliarch."
   landing
   source "Forpelog"
 

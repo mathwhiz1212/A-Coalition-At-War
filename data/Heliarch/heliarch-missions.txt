@@ -20,7 +20,7 @@ mission "Choose the Coalition"
     "reputation: Coalition" >?= 1000
     "reputation: Quarg" <?= -10000
     set "license: Heliarch"
-    event `ACAW: coalition branch`
+    event `ACAW: Heliarch branch`
 
 mission `Looting a Jump Drive (The First Time)`
   description `There is a disabled Quarg ship in the "Heliarch Southern Wormhole" system. Loot the jump drive and bring it to the Ring of Friendship for payment. This will require 20 cargo space. You may want to use a cloaking device so you don't die.`

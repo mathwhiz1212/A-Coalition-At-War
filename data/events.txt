@@ -37,7 +37,7 @@ event `heliarch loot`
 
 # Heliarch
 
-event `ACAW: coalition branch`
+event `ACAW: Heliarch branch`
   planet "Tebuteb's Table"
     add outfitter "Heliarch Advanced"
 
