@@ -132,6 +132,28 @@ ship "Heliarch Punisher" "Heliarch Punisher (Jump Scrappy)"
 		"Small Steering Module" 2
 		"Jump Drive"
 
+# Later Game Custom
+# Don't use this one without further testing, it might only use short range weapons.
+ship "Heliarch Punisher" "Heliarch Punisher (Finisher Bombardment)"
+	outfits
+		"Finisher Pod" 6
+		"Finisher Storage Tube" 6
+		"Finisher Torpedo" 360
+		"Bombardment Turret" 3
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Overcharged Shield Module" 3
+		"Overclocked Repair Module" #2
+		"Cooling Module" #1
+		"Outfits Expansion" 3
+		"Enforcer Riot Staff" 77
+		"Enforcer Confrontation Gear" 45
+		"Large Thrust Module" 2
+		"Small Thrust Module"
+		"Large Steering Module" 4
+		"Small Steering Module" 2
+		"Jump Drive"
+
 # Special
 
 ship "Kimek Spire Boarder"

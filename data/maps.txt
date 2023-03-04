@@ -1,5 +1,10 @@
-#planet "Tebuteb's Table"
-#  outfitter "Heliarch Advanced"
+#system "Testing"
+#	invisible
+#	pos -184 528
+#	link Sadalsuud
+#	arrival 2560
+#	habitable 2560
+#	belt 1635
 
-#planet Forpelog
-#  outfitter "Quarg Advanced"
+#system Sadalsuud
+#	link "Testing"
