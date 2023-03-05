@@ -133,6 +133,10 @@ ship "Heliarch Punisher" "Heliarch Punisher (Jump Scrappy)"
 		"Jump Drive"
 
 # Later Game Custom
+
+
+
+
 # Don't use this one without further testing, it might only use short range weapons.
 ship "Heliarch Punisher" "Heliarch Punisher (Finisher Bombardment)"
 	outfits
@@ -220,7 +224,7 @@ ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission)"
 		"shields" 108000
 		"hull" 85000
 		"required crew" 145
-		"bunks" 145
+		"bunks" 149
 		"mass" 780
 		"drag" 12.2
 		"heat dissipation" .60
