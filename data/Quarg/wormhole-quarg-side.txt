@@ -37,7 +37,7 @@ system "Quarg Southern Wormhole"
 
 planet "Wormhole Quarg"
 	description "Wormhole to Coalition space"
-	spaceport "yo"
+	spaceport "test"
 
 system Sadalsuud
 	add link "Quarg Southern Wormhole"

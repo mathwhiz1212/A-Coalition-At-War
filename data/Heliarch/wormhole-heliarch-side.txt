@@ -37,7 +37,7 @@ system "Heliarch Southern Wormhole"
 
 planet "Wormhole Quarg"
 	description "Wormhole to Quarg space."
-	spaceport "yo"
+	spaceport "test"
 
 system Tebuteb
 	add link "Heliarch Southern Wormhole"

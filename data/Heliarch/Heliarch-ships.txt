@@ -134,9 +134,6 @@ ship "Heliarch Punisher" "Heliarch Punisher (Jump Scrappy)"
 
 # Later Game Custom
 
-
-
-
 # Don't use this one without further testing, it might only use short range weapons.
 ship "Heliarch Punisher" "Heliarch Punisher (Finisher Bombardment)"
 	outfits
@@ -261,7 +258,7 @@ ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission)"
 		"Small Steering Module" 3
 		"Jump Drive"
 
-ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission Skylance)"
+ship "Heliarch Punisher" "Heliarch Punisher (Skylance)"
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -293,7 +290,6 @@ ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission Skylance)"
 		"Small Reactor Module"
 		"Large Battery Module" #2
 		"Overcharged Shield Module" 3
-#				"Overclocked Repair Module" 2
 		"Cooling Module" 11
 		"Enforcer Confrontation Gear" 145
 		"Outfits Expansion" 4
@@ -304,7 +300,7 @@ ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission Skylance)"
 		"Small Steering Module" 1 #3
 		"Jump Drive"
 
-ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission Nanotech Variant)"
+ship "Heliarch Punisher" "Heliarch Punisher (Nanotech Skylance)"
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -337,7 +333,6 @@ ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission Nanotech Variant)"
 		"Nanotech Battery"
 #		"Large Battery Module" #2
 		"Overcharged Shield Module" 3
-#				"Overclocked Repair Module" 2
 		"Cooling Module" 10 #11
 		"Enforcer Confrontation Gear" 145
 		"Outfits Expansion" 4
@@ -347,3 +342,137 @@ ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission Nanotech Variant)"
 		"Large Steering Module" 2
 		"Small Steering Module" 2 #3
 		"Jump Drive"
+
+ship "Heliarch Longsword"
+	name "Heliarch Longsword"
+	sprite ship/emeraldsword
+	thumbnail thumbnail/emeraldsword
+	swizzle 3
+	attributes
+		category Superheavy
+		cost 500000000
+		mass 4240
+		bunks 1208
+		"cargo space" 238
+		drag 40
+		"engine capacity" 460
+		"fuel capacity" 500
+		"gun ports" 16
+		"heat dissipation" 0.45
+		hull 108000
+		"outfit space" 2850
+		"required crew" 282
+		shields 216000
+		"spinal mount" 1
+		"turret mounts" 16
+		"weapon capacity" 1422
+		# Heliarch tech
+		"ion protection" .5
+		"scramble protection" .5
+	outfits
+		"Antimatter Core" 4
+#		"Nanotech Battery"
+		"Hyperdrive"
+		"Outfits Expansion" 11
+		"Overcharged Shield Module" 11
+		"Finisher Maegrolain" 16
+		"Finisher Storage Tube" 22
+		"Finisher Torpedo" 1400
+		"Medium Graviton Steering" 2
+		"Medium Graviton Thruster" 5
+		"Intrusion Countermeasures" 1208
+	crew 1208
+	fuel 500
+	shields 216000
+	hull 108000
+	position 305.35426 -313.59447
+	engine 83 275
+		zoom 1.3
+		angle 0
+		over
+	engine 132 282
+		zoom 0.8
+		angle 0
+		over
+	engine -83 275
+		zoom 1.3
+		angle 0
+		over
+	engine -132 282
+		zoom 0.8
+		angle 0
+		over
+	"reverse engine" -131 136
+		zoom 0.6
+		angle -24.99939
+		over
+	"reverse engine" 131 136
+		zoom 0.6
+		angle -335.00061
+		over
+	"steering engine" -131 136
+		zoom 0.5
+		angle 155.00061
+		over
+		left
+	"steering engine" 131 136
+		zoom 0.5
+		angle -155.00061
+		over
+		right
+	"steering engine" -34.5 -221.5
+		zoom 0.2
+		angle 60.001831
+		over
+		right
+	"steering engine" -39 -193.5
+		zoom 0.2
+		angle 60.001831
+		over
+		right
+	"steering engine" -43.5 -165.5
+		zoom 0.2
+		angle 60.001831
+		over
+		right
+	"steering engine" 34.5 -221.5
+		zoom 0.2
+		angle -60.001831
+		over
+		left
+	"steering engine" 39 -193.5
+		zoom 0.2
+		angle -60.001831
+		over
+		left
+	"steering engine" 43.5 -165.5
+		zoom 0.2
+		angle -60.001831
+		over
+		left
+
+	gun -36.5 -160.5 "Finisher Maegrolain"
+	gun 25 -165 "Finisher Maegrolain"
+	gun -52.5 -91.5 "Finisher Maegrolain"
+	gun 51 -91.5 "Finisher Maegrolain"
+	gun -62.5 -29.5 "Finisher Maegrolain"
+	gun 58.5 -32.5 "Finisher Maegrolain"
+	gun -84.5 41 "Finisher Maegrolain"
+	gun 82 36.5 "Finisher Maegrolain"
+	gun -98 94 "Finisher Maegrolain"
+	gun 96 86 "Finisher Maegrolain"
+	gun -122.5 136.5 "Finisher Maegrolain"
+	gun 116.5 136 "Finisher Maegrolain"
+	gun -144 181 "Finisher Maegrolain"
+	gun 144 179 "Finisher Maegrolain"
+	gun -75 -13.5 "Finisher Maegrolain"
+	gun 74 -9 "Finisher Maegrolain"
+	explode "huge explosion" 42
+	explode "large explosion" 39
+	explode "medium e xplosion" 47
+	explode "nuke explosion" 2
+	explode "small explosion" 26
+	explode "tiny explosion" 60
+	"final explode" "nuke explosion" 2
+	"final explode" "nuke residue fast" 50
+	description `The Heliarch know their ships are no match for Quarg, so they used the best of Quarg and Sheragi tech combined with their most advanced technologies to create a superweapon. It remains to be seen whether the billions of credits spent in production are worth it.`

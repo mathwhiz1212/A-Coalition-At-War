@@ -2,13 +2,13 @@
 
 event "bad news"
   system Sadalsuud
-     add fleet "Large Quarg (Wormhole)" 300
+     add fleet "Quarg (Wormhole)" 300
 
   system "Heliarch Southern Wormhole"
       add fleet "Heliarch (Wormhole)" 300
 
   system "Quarg Southern Wormhole"
-    add fleet "Large Quarg (Wormhole)" 300
+    add fleet "Quarg (Wormhole)" 300
 
 event `new ACAW ships`
 

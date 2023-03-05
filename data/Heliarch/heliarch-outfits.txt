@@ -12,3 +12,30 @@ outfit "Planetary Shield Module"
 	"energy consumption" 8.5
 	"unplunderable" 1
 	description "The Heliarchs took a planterary shield generator and stuck it on certain large ships. It only really works on Longswords, nothing else has the outfit space."
+
+outfit "Quantum Repair Module"
+	category "Systems"
+	cost 3326000
+	thumbnail "outfit/overclocked repair module"
+	"mass" 64
+	"outfit space" -32
+	"hull repair rate" 3.5
+	"hull energy" 2.8
+	"hull heat" 2.4
+	"heat generation" 1.2
+	description "These advanced repair modules are issued only to the Heliarch Punishers defending the wormhole system, providing hull repair unparalleled in all of Coalition space. The legions of small repair drones come with the extensive pathways they use to quickly get around a ship, and as such the outfit can interfere with a ship's cooling and heat dissipation systems."
+
+outfit "Quantum Deionizer"
+	category "Systems"
+	cost 100000000
+	"mass" 300
+	"outfit space" -100
+	"weapon capacity" -240
+	"heat generation" 158
+	"energy consumption" 50
+	"drag" 20
+	"ion protection" 500
+	"hull protection" 0.1
+	"shield protection" 0.1
+
+	description "This Quantum Deionizer makes you virtually immune to ion damage at a high cost. The ion sheath it creates gives a 10% reduction to shield & hull damage. It slows down your ship A LOT, uses a lot of WEAPON space, and might be the hottest outfit. Is immunity worth it? I don't know. Seems like someone could just kill you with a flamethrower."
