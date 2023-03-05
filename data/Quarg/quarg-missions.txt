@@ -48,13 +48,6 @@ mission `Observe the Heliarch's New Prototype`
         system "Quarg Southern Wormhole"
         ship "Heliarch Longsword" "Heliarch Longsword 2"
 
-#  npc
-#        personality staying
-#            confusion 0
-#        government "Heliarch"
-#        system "Quarg Southern Wormhole"
-#        ship "Heliarch Longsword" "Heliarch Longsword 3"
-
   npc
         personality heroic disables
             confusion 0
@@ -85,10 +78,8 @@ mission `Overcharged Shield Module (The First Time)`
         system "Quarg Southern Wormhole"
         ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
 
-  to complete
-    require "Overcharged Shield Module" 1
-
   on complete
+    require "Overcharged Shield Module" 1
     dialog `A grateful Quarg official gives you two million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets." Next time you come back, you can also buy outfits we've looted from the Heliarch. He also informs you that you can make money faster by capturing Heliarch ships in the "Quarg Southern Wormhole" system when you accept this mission in the future. Just be patient and stay clear of the main fighting.`
     dialog `We're giving you a captured Kimek Spire to make capturing ships easier.`
     outfit "Overcharged Shield Module" -1
@@ -114,10 +105,8 @@ mission `Overcharged Shield Module`
         system "Quarg Southern Wormhole"
         ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
 
-  to complete
-    require "Overcharged Shield Module" 1
-
   on complete
+    require "Overcharged Shield Module" 1
     dialog `A grateful Quarg official gives you two million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets."`
     outfit "Overcharged Shield Module" -1
     payment 2000000
