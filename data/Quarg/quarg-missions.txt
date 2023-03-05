@@ -111,7 +111,7 @@ mission `Overcharged Shield Modules`
         personality staying
             confusion 0
         government "Heliarch"
-        system "Testing"
+        system "Quarg Southern Wormhole"
         ship "Heliarch Punisher (Looting Mission Skylance)" "Defender of Peace"
 
   to complete

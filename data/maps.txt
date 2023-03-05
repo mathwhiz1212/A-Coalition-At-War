@@ -1,10 +1,11 @@
-system "Testing"
+#system "Testing"
+#	pos -184 528
+#	link Sadalsuud
+
+#system Sadalsuud
+#	add link "Testing"
+
 #	invisible
-	pos -184 528
-	link Sadalsuud
 #	arrival 2560
 #	habitable 2560
 #	belt 1635
-
-system Sadalsuud
-	add link "Testing"
