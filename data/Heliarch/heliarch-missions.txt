@@ -46,7 +46,7 @@ mission `Looting a Jump Drive (The First Time)`
     give ship "Kimek Spire Boarder"
     outfit "Jump Drive" -1
     payment 5000000
-    event `quarg jump drives looted`
+    event `new ACAW ships`
     event `quarg ships looted`
 
 mission `Looting a Jump Drive`
