@@ -1,60 +1,60 @@
 # Both Branches
 
 event "bad news"
-  system Sadalsuud
-     add fleet "Quarg (Wormhole)" 300
+	system Sadalsuud
+		add fleet "Quarg (Wormhole)" 300
 
-  system "Heliarch Southern Wormhole"
-      add fleet "Heliarch (Wormhole)" 300
+	system "Heliarch Southern Wormhole"
+		add fleet "Heliarch (Wormhole)" 300
 
-  system "Quarg Southern Wormhole"
-    add fleet "Quarg (Wormhole)" 300
+	system "Quarg Southern Wormhole"
+		add fleet "Quarg (Wormhole)" 300
 
 event `new ACAW ships`
 
-  system "Heliarch Southern Wormhole"
-    add fleet "Heliarch Longsword" 2400
-    remove fleet "Heliarch (Wormhole)"
-    add fleet "Heliarch (Jump Wormhole)" 300
+	system "Heliarch Southern Wormhole"
+		add fleet "Heliarch Longsword" 2400
+		remove fleet "Heliarch (Wormhole)"
+		add fleet "Heliarch (Jump Wormhole)" 300
 
-  system "Quarg Southern Wormhole"
-    add fleet "Quarg Skydragon" 600
+	system "Quarg Southern Wormhole"
+		add fleet "Quarg Skydragon" 600
 
 # Quarg
 
 event `ACAW: quarg branch`
-  planet Forpelog
-    add outfitter "Quarg Advanced"
+	planet Forpelog
+		add outfitter "Quarg Advanced"
 
 event "remove quarg atrocities"
-    government "Quarg"
-        remove atrocities
+		government "Quarg"
+			remove atrocities
 
 event `heliarch prototype`
-  planet Forpelog
-    add shipyard "Quarg"
-    add outfitter "Quarg Wartime"
+	planet Forpelog
+		add shipyard "Quarg"
+		add outfitter "Quarg Wartime"
 
 event `heliarch loot`
-  planet Forpelog
-    add outfitter "Heliarch Loot"
+	planet Forpelog
+		add outfitter "Heliarch Loot"
 
 # Heliarch
 
 event `ACAW: Heliarch branch`
-  planet "Tebuteb's Table"
-    add outfitter "Heliarch Advanced"
+	planet "Tebuteb's Table"
+		add outfitter "Heliarch Advanced"
 
-  planet "Ring of Friendship"
-    add outfitter "Heliarch Advanced"
+	planet "Ring of Friendship"
+		add outfitter "Heliarch Advanced"
 
 event `quarg ships looted`
-  set "license: Quarg"
-  planet "Ring of Friendship"
-    add outfitter "Quarg Loot"
+	set "license: Quarg"
+	planet "Ring of Friendship"
+		add outfitter "Quarg Loot"
 
-  planet "Ring of Friendship"
-    add shipyard "Heliarch Wartime"
-    add shipyard "Arach"
-    add shipyard "Kimek"
-    add shipyard "Saryd"
+	planet "Ring of Friendship"
+		add shipyard "Heliarch Wartime"
+		add shipyard "Arach"
+		add shipyard "Kimek"
+		add shipyard "Saryd"

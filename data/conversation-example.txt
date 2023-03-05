@@ -35,4 +35,4 @@
 #        #decline
 #      label coalition
 #        ` "Coalition yay"`
-  #        decline
+#        decline
