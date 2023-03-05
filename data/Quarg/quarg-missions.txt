@@ -39,20 +39,20 @@ mission `Observe the Heliarch's New Prototype`
 			confusion 0
 		government "Heliarch"
 		system "Quarg Southern Wormhole"
-			ship "Heliarch Longsword" "Heliarch Longsword"
+		ship "Heliarch Longsword" "Heliarch Longsword"
 
 	npc
 		personality staying
 			confusion 0
 		government "Heliarch"
 		system "Quarg Southern Wormhole"
-			ship "Heliarch Longsword" "Heliarch Longsword 2"
+		ship "Heliarch Longsword" "Heliarch Longsword 2"
 
 	npc
 		personality heroic disables
 			confusion 0
 		government "Quarg"
-			ship "Quarg Skydragon" "Quarg Skydragon"
+		ship "Quarg Skydragon" "Quarg Skydragon"
 
 	on complete
 		dialog `You tell the Quarg the new ships appeared to use salvaged Sheragi technology and more Finisher missile launchers than you've ever seen equipped to a single ship before. The Quarg in charge grimly thanks you for the information. "We've also heard reports of Punishers equipped with Skylances. We must make preparations to counter this new threat."`
@@ -76,7 +76,7 @@ mission `Overcharged Shield Module (The First Time)`
 			confusion 0
 		government "Heliarch"
 		system "Quarg Southern Wormhole"
-			ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
+		ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
 
 	on complete
 		require "Overcharged Shield Module" 1
@@ -103,7 +103,7 @@ mission `Overcharged Shield Module`
 			confusion 0
 		government "Heliarch"
 		system "Quarg Southern Wormhole"
-			ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
+		ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
 
 	on complete
 		require "Overcharged Shield Module" 1

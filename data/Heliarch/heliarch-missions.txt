@@ -37,7 +37,7 @@ mission `Looting a Jump Drive (The First Time)`
 			confusion 0
 		government "Quarg"
 		system "Heliarch Southern Wormhole"
-			ship "Quarg Wardragon (jump only)" "Quarg Wardragon"
+		ship "Quarg Wardragon (jump only)" "Quarg Wardragon"
 
 	on complete
 		dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted. "We would like you to live long enough to be useful to us, so you may now buy looted Quarg outfits and Heliarch warships in the future when you come to the Ring of Fellowship. You must leave and land again before they will become available."`
@@ -66,7 +66,7 @@ mission `Looting a Jump Drive`
 			confusion 0
 		government "Quarg"
 		system "Heliarch Southern Wormhole"
-			ship "Quarg Wardragon" "Quarg Wardragon"
+		ship "Quarg Wardragon" "Quarg Wardragon"
 
 	on complete
 		dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted.`
