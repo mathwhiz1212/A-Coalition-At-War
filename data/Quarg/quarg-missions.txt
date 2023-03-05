@@ -31,7 +31,7 @@ mission `Observe the Heliarch's New Prototype`
     has "Choose the Quarg: done"
 
   on accept
-    dialog `The Heliarch have built a new ship prototype and the Quarg are worried it has something to do with increased looting of Quarg ships by the Heliarch. Observe the Heliarch's new ship prototype in Quarg Southern Wormhole. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance. You will likely need to use your cloaking device for this mission. Feel free to loot the Heliarch ships after the battle.`
+    dialog `The Heliarch have built a new ship prototype and the Quarg are worried it has something to do with increased looting of Quarg ships by the Heliarch. Observe the Heliarch's new ship prototype in Quarg Southern Wormhole. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance. You will likely need to use your cloaking device for this mission. If you die, load your last save and try again. Feel free to loot the Heliarch ships after the battle.`
     dialog `The Quarg are sending one of their new "Skydragon" ships with you on this mission.`
 
   npc
@@ -69,7 +69,7 @@ mission `Observe the Heliarch's New Prototype`
     event `heliarch prototype`
     event `new ACAW ships`
 
-mission `Overcharged Shield Modules (The First Time)`
+mission `Overcharged Shield Module (The First Time)`
   description `The Quarg want to study the Overcharged Shield Module used by Heliarch Punishers. Loot one of those and return. You'll need 44 cargo space. If the mission Punisher is destroyed and no others spawn, abort the mission, land on Forpelog, and accept the mission again.`
   job
 
@@ -89,15 +89,15 @@ mission `Overcharged Shield Modules (The First Time)`
     require "Overcharged Shield Module" 1
 
   on complete
-    dialog `A grateful Quarg official gives you a million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets." Next time you come back, you can also buy outfits we've looted from the Heliarch. He also informs you that you can make money faster by capturing Heliarch ships in the "Quarg Southern Wormhole" system when you accept this mission in the future. Just be patient and stay clear of the main fighting.`
+    dialog `A grateful Quarg official gives you two million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets." Next time you come back, you can also buy outfits we've looted from the Heliarch. He also informs you that you can make money faster by capturing Heliarch ships in the "Quarg Southern Wormhole" system when you accept this mission in the future. Just be patient and stay clear of the main fighting.`
     dialog `We're giving you a captured Kimek Spire to make capturing ships easier.`
     outfit "Overcharged Shield Module" -1
-    payment 1000000
+    payment 2000000
     give ship `Kimek Spire` `Kimek Spire`
     event `heliarch loot`
     set "license: Heliarch"
 
-mission `Overcharged Shield Modules`
+mission `Overcharged Shield Module`
   description `The Quarg want to study the Overcharged Shield Module used by Heliarch Punishers. Loot one of those and return. You'll need 44 cargo space. If the mission Punisher is destroyed and no others spawn, abort the mission, land on Forpelog, and accept the mission again.`
   job
   repeat
@@ -118,6 +118,6 @@ mission `Overcharged Shield Modules`
     require "Overcharged Shield Module" 1
 
   on complete
-    dialog `A grateful Quarg official gives you a million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets."`
+    dialog `A grateful Quarg official gives you two million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets."`
     outfit "Overcharged Shield Module" -1
-    payment 1000000
+    payment 2000000

@@ -31,7 +31,7 @@ fleet "Heliarch (Jump Wormhole)"
 #		"Heliarch Punisher (Jump Scrappy)" 2
 	variant #10
 #		"Heliarch Punisher (Jump Pure Finishers)" #2
-		"Heliarch Punisher (Jump Scrappy)" 2
+#		"Heliarch Punisher (Jump Scrappy)" 2
 	variant #10
 		"Heliarch Punisher (Looting Mission Skylance)" 2
 #		"Heliarch Punisher (Jump Scrappy)" 2

@@ -23,7 +23,7 @@ mission "Investigate the Anomaly (Coalition Source)"
 
   on complete
     dialog "You tell the official that the anomaly is a wormhole that connects Coalition and Quarg space."
-    dialog "I must inform the Heliarchs at once. Do not engage the Quarg, they will destroy you. If you desire to help in the inevitable conflict, join us, and we will find missions for you."
+    dialog "I must inform the Heliarchs at once. If you desire to help in the inevitable conflict, join us, and we will find missions for you. Do not engage the Quarg, they will destroy you. "
     event "bad news"
 
 mission "Investigate the Anomaly (Quarg Source)"
