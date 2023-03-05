@@ -290,15 +290,60 @@ ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission Skylance)"
 		"Quarg Skylance" 2
 
 		"Large Reactor Module" 4
-#				"Small Reactor Module"
-		"Large Battery Module" 2
-		"Overcharged Shield Module" 2
+		"Small Reactor Module"
+		"Large Battery Module" #2
+		"Overcharged Shield Module" 3
 #				"Overclocked Repair Module" 2
-		"Cooling Module" 8
+		"Cooling Module" 11
 		"Enforcer Confrontation Gear" 145
+		"Outfits Expansion" 4
+
+		"Large Thrust Module" 3
+		"Small Thrust Module" #2
+		"Large Steering Module" 2
+		"Small Steering Module" 1 #3
+		"Jump Drive"
+
+ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission Nanotech Variant)"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Heliarch
+		"cost" 58487000
+		"shields" 108000
+		"hull" 85000
+		"required crew" 145
+		"bunks" 149
+		"mass" 780
+		"drag" 12.2
+		"heat dissipation" .60
+		"ion protection" .3
+		"scramble protection" .3
+		"fuel capacity" 600
+		"cargo space" 94
+		"outfit space" 885
+		"weapon capacity" 352
+		"engine capacity" 187
+		weapon
+			"blast radius" 400
+			"shield damage" 4800
+			"hull damage" 2400
+			"hit force" 6000
+	outfits
+		"Quarg Skylance" 2
+
+		"Large Reactor Module" 4
+#		"Small Reactor Module"
+		"Nanotech Battery"
+#		"Large Battery Module" #2
+		"Overcharged Shield Module" 3
+#				"Overclocked Repair Module" 2
+		"Cooling Module" 10 #11
+		"Enforcer Confrontation Gear" 145
+		"Outfits Expansion" 4
 
 		"Large Thrust Module" 3
 		"Small Thrust Module" 2
 		"Large Steering Module" 2
-		"Small Steering Module" 3
+		"Small Steering Module" 2 #3
 		"Jump Drive"

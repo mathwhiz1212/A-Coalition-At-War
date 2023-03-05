@@ -41,7 +41,7 @@ mission `Looting a Jump Drive (The First Time)`
 
   on complete
     dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted. "We would like you to live long enough to be useful to us, so you may now buy looted Quarg outfits and Heliarch warships in the future when you come to the Ring of Fellowship. You must leave and land again before they will become available."`
-    dialog `You may see our new Heliarch Longsword in the wormhole systems from time to time. It's not very strong compared to a Quarg ship, but if you put it in a fleet it is a very strong missile boat. You may also see the new Quarg Skydragon. Do not underestimate that one.`
+    dialog `We've equipped our Punishers in the wormhole systems with Skylances to counter the Quarg threat. You may also see our new Heliarch Longsword there from time to time. We hear the Quarg developed a new ship called the Skydragon. Do not underestimate that one.`
     dialog `We are giving you a new prototype space liner you can use for boarding. It's not very strong, but it's got lots of bunks. It should be able to capture a regular wardragon, but may not be able to capture a Skylark depending on the crew count.`
     give ship "Kimek Spire Boarder"
     outfit "Jump Drive" -1
