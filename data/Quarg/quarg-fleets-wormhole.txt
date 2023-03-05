@@ -1,12 +1,12 @@
 fleet "Large Quarg (Wormhole)"
 	government "Quarg"
 	names "quarg"
-	cargo 1
+	#cargo 1
 	personality
 		heroic disables
 
 #Disables because they are peaceful at heart and want the Coalition to stop fighting.
-	variant 2
+	variant #2
 		"Quarg Skylark" #2
 		"Quarg Wardragon"
 #	variant 2
@@ -29,7 +29,7 @@ fleet "Large Quarg (Wormhole)"
 #	personality
 #		heroic disables
 #
-#variant 2
+#variant #2
 #	"Quarg Skylark"
 #	"Quarg Wardragon"
 #
@@ -37,7 +37,7 @@ fleet "Large Quarg (Wormhole)"
 fleet "Quarg Skydragon"
 	government "Quarg"
 	names "quarg"
-	cargo 1
+	#cargo 1
 	personality
 		heroic disables
 
