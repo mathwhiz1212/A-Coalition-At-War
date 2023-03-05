@@ -331,7 +331,7 @@ ship "Heliarch Punisher" "Heliarch Punisher (Nanotech Skylance)"
 		"Large Reactor Module" 4
 #		"Small Reactor Module"
 		"Nanotech Battery"
-#		"Large Battery Module" #2
+#		"Large Battery Module"
 		"Overcharged Shield Module" 3
 		"Cooling Module" 10 #11
 		"Enforcer Confrontation Gear" 145
