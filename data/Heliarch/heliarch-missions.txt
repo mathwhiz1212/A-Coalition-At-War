@@ -8,8 +8,8 @@ mission "Choose the Coalition"
 
   to offer
     or
-      has "Choose a Side (Coalition Source): offered"
-      has "Choose a Side (Quarg Source): offered"
+      has "Investigate the Anomaly (Quarg Source): done"
+      has "Investigate the Anomaly (Coalition Source): done"
 
   to fail
     has "Choose the Quarg: done"

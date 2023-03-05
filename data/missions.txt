@@ -55,7 +55,8 @@ mission "Investigate the Anomaly (Quarg Source)"
     event "bad news"
 
 mission "Choose a Side (Coalition Source)"
-  description "Return to this planet when you're ready to choose between joining the Quarg and joining the Heliarch."
+  invisible
+  description "Go to planet you want when you're ready to choose between joining the Quarg and joining the Heliarch."
   landing
   source "Tebuteb's Table"
 
@@ -68,11 +69,12 @@ mission "Choose a Side (Coalition Source)"
     has "Choose a Side (Quarg Source): offered"
 
   on offer
-    dialog "Pick a side by leaving and coming back to this planet. You will then get two new missions. One will lead to a Heliarch planet, the other to a Quarg planet. If you go to the Heliarch planet, you will join them and be a fugitive from the Quarg. If you go to the Quarg planet you will join the Quarg and be a fugitive from the Heliarch/Coalition. If you don't want to continue the story yet, leave and don't go to either world until you are ready."
+    dialog "You have two new missions to choose from. One will lead to a Heliarch planet, the other to a Quarg planet. If you go to the Heliarch planet, you will join them and be a fugitive from the Quarg. If you go to the Quarg planet you will join the Quarg and be a fugitive from the Heliarch/Coalition. If you don't want to continue the story yet, leave and don't go to either world until you are ready."
     event "remove quarg atrocities"
 
 mission "Choose a Side (Quarg Source)"
-  description "Return to this planet when you're ready to choose between joining the Quarg and joining the Heliarch."
+  invisible
+  description "Go to planet you want when you're ready to choose between joining the Quarg and joining the Heliarch."
   landing
   source "Forpelog"
 
@@ -85,5 +87,5 @@ mission "Choose a Side (Quarg Source)"
     has "Choose a Side (Coalition Source): offered"
 
   on offer
-    dialog "Pick a side by leaving and coming back to this planet. You will then get two new missions. One will lead to a Heliarch planet, the other to a Quarg planet. If you go to the Heliarch planet, you will join them and be a fugitive from the Quarg. If you go to the Quarg planet you will join the Quarg and be a fugitive from the Heliarch/Coalition. If you don't want to continue the story yet, leave and don't go to either world until you are ready."
+    dialog "You have two new missions to choose from. One will lead to a Heliarch planet, the other to a Quarg planet. If you go to the Heliarch planet, you will join them and be a fugitive from the Quarg. If you go to the Quarg planet you will join the Quarg and be a fugitive from the Heliarch/Coalition. If you don't want to continue the story yet, leave and don't go to either world until you are ready."
     event "remove quarg atrocities"

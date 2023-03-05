@@ -49,9 +49,9 @@ event `ACAW: Heliarch branch`
     add outfitter "Heliarch Advanced"
 
 event `quarg ships looted`
+  set "license: Quarg"
   planet "Ring of Friendship"
     add outfitter "Quarg Loot"
-    set "license: Quarg"
 
   planet "Ring of Friendship"
     add shipyard "Heliarch Wartime"
