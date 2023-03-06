@@ -1,0 +1,15 @@
+fleet "Alpha Chaos"
+	government "Alpha"
+	names "republic capital"
+	personality heroic staying
+
+	variant
+		"Quarg Wardragon" 143
+
+fleet "Republic Chaos"
+	government "Republic"
+	names "republic capital"
+	personality heroic staying
+
+	variant
+		"Heliarch Punisher (Full Quarg)" 100

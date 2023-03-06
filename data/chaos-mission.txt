@@ -1,0 +1,11 @@
+mission "Test Strength Chaos"
+	job
+	repeat
+	description "Test Chaos"
+
+	on accept
+		dialog "Chaos Begins"
+		event "chaos"
+
+	on complete
+		dialog `Yay!`
