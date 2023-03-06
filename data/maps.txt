@@ -1,2 +1,0 @@
-system "Testing"
-	pos -184 428
