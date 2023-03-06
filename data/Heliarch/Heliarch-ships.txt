@@ -370,79 +370,58 @@ ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission)"
 		"Jump Drive"
 
 ship "Heliarch Punisher" "Heliarch Punisher (Skylance)"
-	attributes
-		category "Heavy Warship"
-		licenses
-			Heliarch
-		"cost" 58487000
-		"shields" 108000
-		"hull" 85000
-		"required crew" 145
-		"bunks" 149
-		"mass" 780
-		"drag" 12.2
-		"heat dissipation" .60
-		"ion protection" .3
-		"scramble protection" .3
-		"fuel capacity" 600
-		"cargo space" 94
-		"outfit space" 885
-		"weapon capacity" 352
-		"engine capacity" 187
-		weapon
-			"blast radius" 400
-			"shield damage" 4800
-			"hull damage" 2400
-			"hit force" 6000
 	outfits
 		"Quarg Skylance" 2
 
 		"Large Reactor Module" 4
 		"Small Reactor Module"
-		"Large Battery Module" #2
+		"Large Battery Module"
+
 		"Overcharged Shield Module" 3
 		"Cooling Module" 11
-		"Enforcer Confrontation Gear" 145
 		"Outfits Expansion" 4
+		"Jump Drive"
 
 		"Large Thrust Module" 3
 		"Small Thrust Module" #2
 		"Large Steering Module" 2
 		"Small Steering Module" 1 #3
-		"Jump Drive"
+
+		"Enforcer Confrontation Gear" 145
+
+# Quarg Punisher Variants
 
 ship "Heliarch Punisher" "Heliarch Punisher (Full Quarg)"
-	attributes
-		category "Heavy Warship"
-		licenses
-			Heliarch
-		"cost" 58487000
-		"shields" 108000
-		"hull" 85000
-		"required crew" 145
-		"bunks" 149
-		"mass" 780
-		"drag" 12.2
-		"heat dissipation" .60
-		"ion protection" .3
-		"scramble protection" .3
-		"fuel capacity" 600
-		"cargo space" 94
-		"outfit space" 885
-		"weapon capacity" 352
-		"engine capacity" 187
-		weapon
-			"blast radius" 400
-			"shield damage" 4800
-			"hull damage" 2400
-			"hit force" 6000
 	outfits
 		"Quarg Skylance" 4
 		"Bombardment Cannon" 2
+
 		"Cooling Module" 2
-		"Jump Drive"
 		"Outfits Expansion" 4
 		"Overcharged Shield Module" 4
+
+		"Antimatter Core" 3
+		"Nanotech Battery"
+		"Jump Drive"
+
+		"Large Thrust Module"
+		"Large Steering Module"
+		"Small Steering Module"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+
+		"Enforcer Riot Staff" 78
+		"Enforcer Confrontation Gear" 44
+
+ship "Heliarch Punisher" "Heliarch Punisher (Quarg Bombardment)"
+	outfits
+		"Quarg Skylance" 4
+		"Bombardment Cannon" 5
+
+		"Cooling Module" 3
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 3
+		"Jump Drive"
 
 		"Antimatter Core" 3
 		"Nanotech Battery"
@@ -452,4 +431,89 @@ ship "Heliarch Punisher" "Heliarch Punisher (Full Quarg)"
 		"Small Steering Module"
 		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
-		"Enforcer Confrontation Gear" 145
+
+		"Enforcer Riot Staff" 78
+		"Enforcer Confrontation Gear" 44
+
+ship "Heliarch Punisher" "Heliarch Punisher (Quarg Repulsor)"
+	outfits
+		"Heliarch Repulsor" 4
+		"Bombardment Cannon" 6
+
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 5
+
+		"Antimatter Core" 2
+		"Nanotech Battery"
+		"Jump Drive"
+
+		"Large Thrust Module"
+		"Large Steering Module"
+		"Small Steering Module"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+
+		"Enforcer Riot Staff" 78
+		"Enforcer Confrontation Gear" 44
+
+ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Finishers)"
+	outfits
+		"Finisher Pod" 6
+		"Finisher Storage Tube" 20
+		"Finisher Torpedo" 640
+
+		"Antimatter Core"
+		"Nanotech Battery"
+
+		"Overcharged Shield Module" 2
+		"Outfits Expansion" 4
+		"Jump Drive"
+
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Large Thrust Module"
+		"Large Steering Module"
+		"Small Steering Module"
+
+		"Enforcer Riot Staff" 78
+		"Enforcer Confrontation Gear" 44
+
+ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Bombardment)"
+	outfits
+		"Bombardment Turret" 4
+		"Bombardment Cannon" 6
+
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 6
+		"Jump Drive"
+
+		"Antimatter Core" 2
+		"Nanotech Battery"
+
+		"Large Thrust Module"
+		"Large Steering Module"
+		"Small Steering Module"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+
+		"Enforcer Riot Staff" 78
+		"Enforcer Confrontation Gear" 44
+
+ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Bombardment Thrusters)"
+	outfits
+		"Bombardment Turret" 4
+		"Bombardment Cannon" 6
+
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 6
+		"Jump Drive"
+
+		"Antimatter Core" 2
+		"Nanotech Battery"
+
+		"Large Thrust Module" 2
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+
+		"Enforcer Riot Staff" 78
+		"Enforcer Confrontation Gear" 44
