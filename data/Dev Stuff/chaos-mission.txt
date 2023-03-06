@@ -1,28 +1,26 @@
 fleet "Alpha Chaos"
-	government "Alpha"
 	names "republic capital"
 	personality heroic staying
 
 	variant
-		"Quarg Wardragon" 13
+		"Heliarch Punisher (Quarg Pure Finishers)" 10
 
 fleet "Republic Chaos"
-	government "Republic"
 	names "republic capital"
 	personality heroic staying
 
 	variant
-		"Heliarch Punisher (Full Quarg)" 10
+		"Quarg Wardragon" 9
 
-mission "A Test Strength Chaos"
+mission "1 Test Strength Mission"
 	job
 	repeat
-	description "Test Chaos"
+	description "Test comparative strength of different ships."
 
 	on accept
 		dialog "Chaos Begins"
 
-	npc kill
+	npc
 		personality heroic staying
 		government "Alpha"
 		system "Testing"
@@ -33,6 +31,3 @@ mission "A Test Strength Chaos"
 		government "Republic"
 		system "Testing"
 		fleet "Republic Chaos"
-
-	on complete
-		dialog `Yay!`
