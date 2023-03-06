@@ -77,5 +77,5 @@ mission `Looting a Jump Drive`
 
 #	on offer
 #		dialog `have a ship`
-#		give ship "Heliarch Punisher (Full Quarg)" "Test"
+#		give ship "Heliarch Punisher (Quarg Pure Finishers)" "Test"
 #		give ship "Heliarch Longsword" "Heliarch Longsword"
