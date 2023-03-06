@@ -411,7 +411,7 @@ ship "Heliarch Punisher" "Heliarch Punisher (Skylance)"
 		"Small Steering Module" 1 #3
 		"Jump Drive"
 
-ship "Heliarch Punisher" "Heliarch Punisher (Nanotech Skylance)"
+ship "Heliarch Punisher" "Heliarch Punisher (Full Quarg)"
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -437,19 +437,19 @@ ship "Heliarch Punisher" "Heliarch Punisher (Nanotech Skylance)"
 			"hull damage" 2400
 			"hit force" 6000
 	outfits
-		"Quarg Skylance" 2
-
-		"Large Reactor Module" 4
-#		"Small Reactor Module"
-		"Nanotech Battery"
-#		"Large Battery Module"
-		"Overcharged Shield Module" 3
-		"Cooling Module" 10 #11
-		"Enforcer Confrontation Gear" 145
-		"Outfits Expansion" 4
-
-		"Large Thrust Module" 3
-		"Small Thrust Module" 2
-		"Large Steering Module" 2
-		"Small Steering Module" 2 #3
+		"Quarg Skylance" 4
+		"Bombardment Cannon" 2
+		"Cooling Module" 2
 		"Jump Drive"
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 4
+
+		"Antimatter Core" 3
+		"Nanotech Battery"
+
+		"Large Thrust Module"
+		"Large Steering Module"
+		"Small Steering Module"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Enforcer Confrontation Gear" 145

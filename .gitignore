@@ -1,2 +1,6 @@
 
 .DS_Store
+data/chaos-event.txt
+data/chaos-mission.txt
+data/chaos-testing.txt
+data/maps.txt
