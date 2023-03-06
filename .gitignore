@@ -3,4 +3,5 @@
 data/maps.txt
 data/conversation-example.txt
 data/event-example.txt
-data/Dev Stuff/*
+data/Dev Stuff/
+data/Dev Stuff/**
