@@ -5,7 +5,7 @@ mission "Test Strength Chaos"
 
 	on accept
 		dialog "Chaos Begins"
-		event "chaos"
+#		event "chaos"
 
 	on complete
 		dialog `Yay!`

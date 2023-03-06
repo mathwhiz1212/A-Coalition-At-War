@@ -4,7 +4,7 @@ fleet "Alpha Chaos"
 	personality heroic staying
 
 	variant
-		"Quarg Wardragon" 143
+		"Quarg Wardragon" 14
 
 fleet "Republic Chaos"
 	government "Republic"
@@ -12,4 +12,4 @@ fleet "Republic Chaos"
 	personality heroic staying
 
 	variant
-		"Heliarch Punisher (Full Quarg)" 100
+		"Heliarch Punisher (Full Quarg)" 10
