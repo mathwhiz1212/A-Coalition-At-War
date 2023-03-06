@@ -61,7 +61,7 @@ mission `Looting a Jump Drive`
 		has "Looting a Jump Drive (The First Time): done"
 
 	npc
-		personality
+		personality staying
 		government "Quarg"
 		system "Heliarch Southern Wormhole"
 		ship "Quarg Wardragon" "Quarg Wardragon"
