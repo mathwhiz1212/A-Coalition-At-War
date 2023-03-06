@@ -54,12 +54,13 @@ mission `Observe the Heliarch's New Prototype`
 		government "Quarg"
 		ship "Quarg Skydragon" "Quarg Skydragon"
 
+	on enter "Quarg Southern Wormhole"
+				event `heliarch prototype`
+
 	on complete
 		dialog `You tell the Quarg the new ships appeared to use salvaged Sheragi technology and more Finisher missile launchers than you've ever seen equipped to a single ship before. The Quarg in charge grimly thanks you for the information. "We've also heard reports of Punishers equipped with Skylances. We must make preparations to counter this new threat."`
 		dialog `Since you have proven yourself trustworthy, we do not want you to be unable to survive future missions. We are therefore allowing you to purchase our normal ships. They are not cheap, so we will also let you purchase antimatter cores. If you are caught sharing any of our technology with anyone else, we will destroy you.`
 		dialog `You are happy that you can now buy Quarg ships and antimatter cores, but you don't like the sound of "we will destroy you if you share our technology with anyone else". They really don't want it falling into the wrong hands.`
-		dialog `You must leave and land again to gain access to the shipyard.`
-		event `heliarch prototype`
 		event `new ACAW ships`
 
 mission `Overcharged Shield Module (The First Time)`
