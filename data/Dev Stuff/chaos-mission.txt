@@ -1,0 +1,33 @@
+fleet "Alpha Chaos"
+	names "republic capital"
+	personality staying
+
+	variant
+		"Heliarch Punisher (Pure Finishers)" 10
+
+fleet "Republic Chaos"
+	names "republic capital"
+	personality staying
+
+	variant
+		"Quarg Wardragon" 8
+
+mission "1 Test Strength Mission"
+	job
+	repeat
+	description "Test comparative strength of different ships."
+
+	on accept
+		dialog "Chaos Begins"
+
+	npc
+		personality staying
+		government "Alpha"
+		system "Testing"
+		fleet "Alpha Chaos"
+
+	npc
+		personality staying
+		government "Republic"
+		system "Testing"
+		fleet "Republic Chaos"
