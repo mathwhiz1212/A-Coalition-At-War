@@ -413,6 +413,26 @@ ship "Heliarch Punisher" "Heliarch Punisher (Full Quarg)"
 		"Enforcer Riot Staff" 78
 		"Enforcer Confrontation Gear" 44
 
+ship "Heliarch Punisher" "Heliarch Punisher (Full Quarg Attractor)"
+	outfits
+		"Heliarch Attractor"
+		"Quarg Skylance" 3
+
+		"Cooling Module"
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 5
+		"Overclocked Repair Module" 2
+
+		"Antimatter Core" 2
+		"Nanotech Battery"
+
+		"Jump Drive"
+		"Large Steering Module"
+		"Large Thrust Module"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Small Steering Module"
+
 ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Finishers)"
 	outfits
 		"Finisher Pod" 6
