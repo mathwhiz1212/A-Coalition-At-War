@@ -106,6 +106,44 @@ outfit "Advanced Confrontation Gear"
 	"unplunderable" 1
 	description "The peak of Heliarch combat engineering, this weapon uses condensed blasts of energy to dispatch any who dare threaten the Coalition safety. This new version was developed because of the difficulty in capturing Quarg ships."
 
+outfit "Advanced Finisher Pod"
+	category "Secondary Weapons"
+	licenses
+		Heliarch
+	cost 1370000
+	thumbnail "outfit/finisher pod"
+	"mass" 16
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	"finisher capacity" 40
+	weapon
+		sprite "projectile/finisher activating"
+			"frame rate" 1
+			"no repeat"
+		sound "finisher"
+		ammo "Finisher Torpedo"
+		icon "icon/finisher"
+		"fire effect" "finisher sparks" 8
+		"hit effect" "finisher impact" 1
+		"hit effect" "finisher fragment" 12
+		"die effect" "finisher fragment" 6
+		"inaccuracy" 5
+		"velocity" 10 # Was 10
+		"lifetime" 150 # WAS 60
+		"reload" 20 # Was 80
+		"firing energy" 120
+		"firing heat" 20
+		"acceleration" .8 # was .8
+		"drag" .1 # was .1
+		"turn" 3 # was 0.1
+		"homing" 3 # was 2
+		"radar tracking" .8
+		"optical tracking" 0.8 # WAS 0.5
+		"missile strength" 50 # was 50
+		"submunition" "Active Finisher" 1
+	description `The way the advanced pod fires looks suspiciously like a Pug seeker. Maybe they reverse-engineered alien tech to make it? Finisher Torpedoes are one of the Heliarchs' most dreaded weapons. In fact, in one way or another most of their other weapons merely exist to hold a ship in place for long enough for a barrage of Finishers to destroy it.`
+
 # Don't know if it matters, but vanillia is missing these attributes.
 
 outfit "Finisher Pod"
