@@ -454,3 +454,36 @@ ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Finishers)"
 
 		"Enforcer Riot Staff" 78
 		"Enforcer Confrontation Gear" 44
+
+# When the Heliarch upgrade their tech
+
+ship "Heliarch Punisher" "Heliarch Punisher (Skylance Advanced)"
+	outfits
+		"Cooling Module" 1
+		"Jump Drive"
+		"Advanced Battery Module (Large)"
+		"Advanced Reactor Module (Large)" 4
+		"Large Steering Module" 3
+		"Large Thrust Module" 3
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 3
+		"Quarg Skylance" 2
+		"Advanced Reactor Module (Small)"
+		"Bombardment Cannon" 2
+		"Large Collector Module"
+
+ship "Heliarch Punisher" "Heliarch Punisher (Skylance Very Advanced)"
+	outfits
+		"Cooling Module" 1
+		"Jump Drive"
+		"Advanced Battery Module (Large)"
+		"Advanced Reactor Module (Large)" 4
+		"Advanced Steering Module" 2
+		"Advanced Thrust Module" 2
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 3
+		"Quarg Skylance" 2
+		"Advanced Reactor Module (Small)"
+		"Small Thrust Module"
+		"Ion Hail Turret"
+		"Small Battery Module" 2
