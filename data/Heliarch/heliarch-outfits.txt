@@ -40,10 +40,11 @@ outfit "Quantum Deionizer"
 
 	description "This Quantum Deionizer makes you virtually immune to ion damage at a high cost. The ion sheath it creates gives a 10% reduction to shield & hull damage. It slows down your ship A LOT, uses a lot of WEAPON space, and might be the hottest outfit. Is immunity worth it? I don't know. Seems like someone could just kill you with a flamethrower."
 
-#outfit "Finisher Pod"
-#	weapon
-#		"optical tracking" 0.5
+# Don't know if it matters, but vanillia is missing these.
+outfit "Finisher Pod"
+	weapon
+		"optical tracking" 0.5
 
-#outfit "Finisher Maegrolain"
-#	weapon
-#		"optical tracking" 0.5
+outfit "Finisher Maegrolain"
+	weapon
+		"optical tracking" 0.5
