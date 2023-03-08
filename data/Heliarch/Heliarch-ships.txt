@@ -487,3 +487,23 @@ ship "Heliarch Punisher" "Heliarch Punisher (Skylance Very Advanced)"
 		"Small Thrust Module"
 		"Ion Hail Turret"
 		"Small Battery Module" 2
+
+ship "Heliarch Punisher" "Heliarch Punisher (Advanced Pure Finishers)"
+	outfits
+		"Advanced Finisher Pod" 6
+		"Finisher Storage Tube" 21
+		"Finisher Torpedo" 660
+
+		"Large Reactor Module"
+		"Overcharged Shield Module"
+		"Overclocked Repair Module"
+		"Cooling Module" 4
+		"Scanning Module" 4
+		"Outfits Expansion" 4
+		"Enforcer Riot Staff" 71
+		"Enforcer Confrontation Gear" 40
+
+		"Large Thrust Module" 4
+		"Small Thrust Module"
+		"Large Steering Module" 2
+		"Jump Drive"
