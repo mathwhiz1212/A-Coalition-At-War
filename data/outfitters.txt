@@ -2,11 +2,10 @@ outfitter "ACAW Basics"
 	"Bunk Room"
 	"Cargo Expansion"
 	"Cargo Scanner"
+	"Tactical Scanner"
+	"Outfit Scanner"
 	Hyperdrive
 	"Local Map"
-	"Outfit Scanner"
 	"Outfits Expansion"
 	"Small Bunk Room"
 	"Fuel Pod"
-	"Tactical Scanner"
-
