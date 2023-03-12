@@ -8,6 +8,7 @@ system Homr
 
 	object "Homr 3"
 		distance 56.279
+		sprite planet/rock17
 
 	object "Homr 2"
 		sprite planet/wormhole
@@ -58,6 +59,5 @@ planet "Wormhole Quarg 2"
 	spaceport "test"
 
 planet "Homr 3"
-		sprite planet/rock17
-		distance 2089.28
-		period 3265.09
+	description "Yo"
+	spaceport "yo"
