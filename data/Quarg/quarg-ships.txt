@@ -10,7 +10,7 @@ ship "Quarg Skydragon"
 		"required crew" 240
 		"bunks" 420
 		"mass" 920
-		"drag" 24.6
+		"drag" 18.5
 		"heat dissipation" .7
 		"fuel capacity" 2000
 		"cargo space" 50
@@ -72,7 +72,7 @@ ship "Quarg Skydragon" "Skydragon (Looted Tech)"
 		"required crew" 240
 		"bunks" 420
 		"mass" 920
-		"drag" 24.6
+		"drag" 18.5
 		"heat dissipation" .7
 		"fuel capacity" 2000
 		"cargo space" 50
@@ -158,6 +158,69 @@ ship "Quarg Wardragon (jump only)"
 	turret 28 7
 	turret -9 -14
 	turret 9 -14
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description "The Wardragon is used by the Quarg as a light warship."
+
+ship "Quarg Strikedragon"
+	sprite "ship/wardragon"
+		"scale" 2
+	thumbnail "thumbnail/wardragon"
+	attributes
+		category "Heavy Warship"
+		"cost" 15900000
+		"shields" 480000
+		"hull" 150000
+		"required crew" 480
+		"bunks" 555
+		"mass" 720
+		"drag" 18.6
+		"heat dissipation" .5
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 1800
+		"weapon capacity" 600
+		"engine capacity" 360
+		"hull repair rate" 15
+		"hull energy" 15
+		"ramscoop" 10
+		weapon
+			"blast radius" 750
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Quarg Skylance" 6
+		"Quarg Anti-Missile" 6
+
+		"Antimatter Core" 4
+		"Nanotech Battery" 2
+		"Quantum Shield Generator" 3
+		"Cooling Module" 2
+		"Intrusion Countermeasures" 480
+
+		"Medium Graviton Thruster" 3
+		"Medium Graviton Steering" 3
+		"Jump Drive"
+
+	engine -14 47
+	engine 14 47
+	turret -13 -33
+	turret 16.5 -32
+	turret -15.5 -23
+	turret 15 -22
+	turret -21 -8.5
+	turret -23.5 0.5
+	turret 22.5 -9
+	turret 24.5 2
+	turret 52.5 6
+	turret 57 22
+	turret -55.5 3.5
+	turret -56.5 22.5
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
