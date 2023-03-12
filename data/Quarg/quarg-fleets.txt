@@ -45,3 +45,12 @@ fleet "Quarg Strikedragon"
 
 	variant
 		"Quarg Strikedragon"
+
+fleet "Quarg Motherdragon"
+	government "Quarg"
+	names "quarg"
+	personality
+#		heroic disables
+
+	variant
+		"Quarg Motherdragon"
