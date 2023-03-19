@@ -1,3 +1,559 @@
+# The Quarg Galaxy
+
+galaxy Quarg
+	pos -100000 -70000
+	sprite ui/galaxy
+
+# Wormhole to Quarg Space
+
+system "World's End"
+	object "Wormhole Quarg 2"
+		sprite planet/wormhole
+		distance 2079.28
+		period 3264.09
+
+planet "Wormhole Quarg 2"
+	description "Wormhole to Coalition space"
+	spaceport "test"
+
+system "Homr Arts Culture"
+	pos -99884 -69956.667
+	object "Wormhole Quarg 2"
+		sprite planet/wormhole
+		distance 2079.28
+		period 3264.09
+
+# Copied Quarg Human Space
+
+system "Homr 1"
+	pos -99912.667 -70038
+	attributes "quarg quarg"
+	government Quarg
+	arrival 1450
+	habitable 1450
+	belt 1859
+	link "Homr Ships"
+	link "Homr Military"
+	asteroids "small rock" 1 4.116
+	asteroids "large rock" 3 1.5876
+	asteroids "large metal" 1 3.1458
+	trade Clothing 353
+	trade Electronics 849
+	trade Equipment 561
+	trade Food 388
+	trade "Heavy Metals" 824
+	trade Industrial 796
+	trade "Luxury Goods" 1484
+	trade Medical 911
+	trade Metal 320
+	trade Plastic 447
+	fleet "Small Southern Merchants" 900
+	fleet "Large Southern Merchants" 1500
+	fleet Quarg 1000
+	object
+		sprite star/g0
+		distance 24.1269
+		period 9.6578
+	object
+		sprite star/k8
+		distance 70.4245
+		period 9.6578
+		offset 180
+	object
+		sprite planet/ice3-b
+		distance 307.989
+		period 56.7778
+	object
+		sprite planet/lava2
+		distance 583.399
+		period 148.021
+	object
+		sprite planet/cloud0-b
+		distance 1021.4
+		period 342.901
+		object
+			sprite planet/ice8-b
+			distance 131
+			period 17.1091
+	object
+		sprite planet/jupiter
+		distance 1668.01
+		period 715.605
+		object "Forpelog 2"
+			sprite planet/rock17
+			distance 274
+			period 13.0929
+	object
+		sprite planet/rock7
+		distance 4591.9
+		period 3268.62
+
+system "Homr Ships"
+	pos -99954.667 -70000
+	government Quarg
+	attributes "quarg quarg" "ringworld"
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1974
+	link "Homr 1"
+	link "Homr Peace"
+	asteroids "small rock" 1 6.3336
+	asteroids "medium rock" 14 5.1968
+	asteroids "large rock" 17 12.0176
+	asteroids "small metal" 4 4.1412
+	asteroids "medium metal" 11 6.2524
+	asteroids "large metal" 2 8.0388
+	minables neodymium 10 15.6333
+	minables silicon 2 10.2511
+	minables silver 1 13.4158
+	trade Clothing 361
+	trade Electronics 800
+	trade Equipment 485
+	trade Food 335
+	trade "Heavy Metals" 806
+	trade Industrial 838
+	trade "Luxury Goods" 1456
+	trade Medical 914
+	trade Metal 297
+	trade Plastic 412
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 4000
+	fleet Quarg 600
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/lava5-b
+		distance 812
+		period 349.820
+	object "Lagrange 2"
+		sprite planet/station0
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 180
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -30
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -50
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -70
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -90
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -110
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 100
+
+system "Homr Military"
+	pos -99886.667 -69982.667
+	attributes "quarg quarg"
+	government Quarg
+	arrival 1715
+	habitable 1715
+	belt 1273
+	link "Homr 1"
+	link "Homr 24"
+	link "Homr Arts Culture"
+	asteroids "small rock" 1 3.38
+	asteroids "medium rock" 220 3.0082
+	asteroids "large rock" 1 2.9744
+	asteroids "medium metal" 3 3.4138
+	asteroids "large metal" 1 5.07
+	minables iron 19 3.67645
+	minables tungsten 3 4.93502
+	trade Clothing 375
+	trade Electronics 852
+	trade Equipment 569
+	trade Food 385
+	trade "Heavy Metals" 801
+	trade Industrial 812
+	trade "Luxury Goods" 1468
+	trade Medical 915
+	trade Metal 297
+	trade Plastic 454
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 1200
+	fleet Quarg 2000
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/callisto
+		distance 138.24
+		period 15.6992
+	object
+		sprite planet/ganymede-b
+		distance 500.49
+		period 108.148
+	object
+		sprite planet/cloud4-b
+		distance 836.45
+		period 233.661
+	object "Humanika 2"
+		sprite planet/ocean7
+		distance 1298.94
+		period 452.180
+	object
+		sprite planet/uranus-b
+		distance 1947.35
+		period 830.030
+		object "Grakhord 2"
+			sprite planet/ice7
+			distance 253
+			period 16.2351
+
+# Copied Hai
+
+system "Homr Peace"
+	pos -99928.667 -69966.667
+	government Quarg
+	attributes "quarg quarg" "ringworld"
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	link "Homr 24"
+	link "Homr Arts Culture"
+	link "Homr Ships"
+	link "Homr Military"
+	trade Clothing 362
+	trade Electronics 763
+	trade Equipment 644
+	trade Food 165
+	trade "Heavy Metals" 1280
+	trade Industrial 848
+	trade "Luxury Goods" 1055
+	trade Medical 509
+	trade Metal 457
+	trade Plastic 503
+	fleet "Small Hai" 2000
+	fleet "Large Hai" 5000
+	fleet "Small Hai Merchant" 1000
+	fleet "Large Hai Merchant" 2500
+	fleet "Small Hai Merchant (Sympathizers)" 4000
+	fleet "Large Hai Merchant (Sympathizers)" 10000
+	fleet "Small Hai Merchant (Human)" 4500
+	fleet "Large Hai Merchant (Human)" 7500
+	fleet "Small Human Merchants (Hai)" 9000
+	fleet "Large Human Merchants (Hai)" 15000
+	fleet Quarg 600
+	object
+		sprite star/g3
+		period 10
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 100
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 120
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 140
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 160
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 180
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 200
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 220
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 240
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 260
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 280
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 300
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 320
+	object "Homr Peace Planet"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 340
+
+system "Homr 24"
+	pos -99884 -70026.667
+	government Quarg
+	attributes "quarg quarg" "ringworld"
+	arrival 700
+	habitable 700
+	belt 1935
+	haze _menu/haze-133
+	link "Homr Military"
+	link "Homr 1"
+	asteroids "small rock" 4 5.6295
+	asteroids "medium rock" 1 5.751
+	asteroids "large rock" 2 2.349
+	asteroids "small metal" 1 4.05
+	asteroids "medium metal" 2 4.05
+	asteroids "large metal" 3 2.0655
+	minables lead 3 5.25735
+	minables silicon 3 5.59881
+	trade Clothing 292
+	trade Electronics 832
+	trade Equipment 363
+	trade Food 535
+	trade "Heavy Metals" 1102
+	trade Industrial 685
+	trade "Luxury Goods" 1035
+	trade Medical 500
+	trade Metal 473
+	trade Plastic 317
+	fleet Quarg 600
+	fleet "Large Quarg" 800
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/lava3-b
+		distance 812
+		period 349.820
+#		object "Korati Efreti"
+#			sprite planet/station1k
+#				scale 0.5
+#			distance 132
+#			period 349.82
+#			offset 180
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -30
+	object "Kuwaru Efreti 2"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -50
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -70
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -90
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 130
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 150
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 180
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 200
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 220
+
+# New Planets
+
+planet "Forpelog 2"
+	attributes "quarg quarg" moon quarg
+	landscape land/canyon03
+	description `Forpelog is a Quarg mining world, barely habitable by their standards and, because of its low gravity, unsuitable for long-term human habitation. The Quarg city is a marvel of advanced technology, entirely enclosed within glass and steel, with gardens and terraces where alien trees and plants grow. Outside the city, the landscape is rugged and beautiful, but the atmosphere is too thin to breathe and contains almost no oxygen.`
+	spaceport `Your ship is docked on a metal pad immediately outside the dome of the city, which towers over you. Immediately after you landed, a smaller canopy unfolded around your ship, sealing it in and providing enough air for you to breathe as you make your way inside. The stark, lifeless badlands outside give way to bustling streets and lush blue foliage within. No other human beings are in sight.`
+	bribe 0
+	security 0.9
+
+planet "Lagrange 2"
+	attributes "quarg quarg" quarg station
+	landscape land/station5
+	description `The Quarg built this station centuries ago, before they began construction on the ringworld. From the dark side of the station, the ring is visible as a thin bright filament stretching out to either side of the system's sun. The ring itself is closed to human visitors, but tour shuttles depart from here on a regular basis, giving human tourists a closer view of this engineering feat that is so far beyond anything human beings have ever attempted to build.`
+	spaceport `In the docking section are flexible, oddly organic-looking tubes that snaked out to connect to your ship as it approached. Walking through the tube and into the station was a somewhat disconcerting experience. Inside, crowds of human tourists gawk at the tall, thin Quarg, who for the most part seem unfazed by the attention. The station is perfectly clean; every surface shines.`
+	bribe 0
+	security 0.9
+
+planet "Grakhord 2"
+	attributes "quarg quarg" moon quarg
+	landscape land/badlands6
+	description `Although human beings who do not mind living in low gravity are welcome to settle here, Grakhord is part of Quarg territory, and has been terraformed to meet their environmental needs rather than those of human beings. The full extent of the Quarg mining operations here are not known, but rumors say that they have tunnels reaching down almost halfway to the moon's core, and Quarg ships can also sometimes be seen harvesting hydrogen gas from the upper atmosphere of the gas giant that Grakhord orbits.`
+	spaceport `Here, you feel like a young child lost among a crowd of tall, indifferent adults. The average adult Quarg is over three meters tall, and although they move slowly and gracefully, on their long legs they easily speed by you. Worse, the counters for the merchant exchange, bank, and job board are high enough that you can barely see over them. But, the Quarg have helpfully provided stepping stools stashed under the counters so that shorter humans can carry out business without having to constantly crane their necks upwards.`
+	bribe 0
+	security 0.9
+
+planet "Kuwaru Efreti 2"
+	attributes "quarg quarg" quarg station
+	landscape land/station20
+	description `This Quarg ringworld is almost half completed, but there are no signs of active construction, and your ship's sensors picked up no energy signals from any section of the ring except for this one. You also observed superficial weapon scars on some parts of the ring, damage that the Quarg have not bothered to repair - although clearly the attackers did not possess weapons powerful enough to do any serious harm to the ring.`
+	spaceport `Despite their size, the Quarg are generally almost silent when they move, and there seem to be very few of them left inhabiting this ringworld. As you walk through some parts of the spaceport it is utterly silent and seemingly deserted, and you are jolted by surprise each time the illusion of solitude is broken by a Quarg emerging suddenly from a doorway and striding silently past you. Every once in a while, louder footsteps announce the presence of a group of Korath visiting the station.`
+	spaceport `	Although the spaceport offers all the usual amenities, including a small merchant's exchange for trading goods, you feel slightly self-conscious about breaking the silence of the station to speak to anyone.`
+	bribe 0
+	security 1
+
+planet "Homr Peace Planet"
+	attributes "quarg quarg" quarg station
+	landscape land/station19
+	description `This is a complete Quarg ringworld, the product of millennia of construction effort which has consumed every other stellar object in this system in order to provide the raw materials. The inner edge of the ring is filled with solar panels, hydroponic gardens, living quarters, and sunlit common spaces. The outer edge contains hangars and docks for ships, and storage facilities for cargo.`
+	description `	Massive station-keeping thrusters on the ring's exterior keep its orbit from becoming unstable.`
+	spaceport `If this section of the ring is any indication, there must be trillions of Quarg here. Since the construction work on the ring has long since ended, many of them seem to spend their time with creative or scientific endeavors instead. The spaceport is decorated with artwork of every imaginable kind: sculptures, mobiles, paintings, music, and even one hallway that cycles through various artificial odors, some of them intensely unpleasant to your human senses.`
+	bribe 0
+	security 0.9
+
+# Testing
+
 system "Testing"
 	pos -184 428
 	arrival 2560
