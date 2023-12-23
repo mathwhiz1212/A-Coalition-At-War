@@ -37,21 +37,18 @@ mission `Observe the Heliarch's New Prototype`
 
 	npc
 		personality staying
-			confusion 0
 		government "Heliarch"
 		system "Quarg Southern Wormhole"
 		ship "Heliarch Longsword" "Heliarch Longsword"
 
 	npc
 		personality staying
-			confusion 0
 		government "Heliarch"
 		system "Quarg Southern Wormhole"
 		ship "Heliarch Longsword" "Heliarch Longsword 2"
 
 	npc
 		personality heroic disables
-			confusion 0
 		government "Quarg"
 		ship "Quarg Skydragon" "Quarg Skydragon"
 
@@ -75,7 +72,6 @@ mission `Overcharged Shield Module (The First Time)`
 
 	npc
 		personality staying
-			confusion 0
 		government "Heliarch"
 		system "Quarg Southern Wormhole"
 		ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"
@@ -102,7 +98,6 @@ mission `Overcharged Shield Module`
 
 	npc
 		personality staying
-			confusion 0
 		government "Heliarch"
 		system "Quarg Southern Wormhole"
 		ship "Heliarch Punisher (Looting Mission)" "Defender of Peace"

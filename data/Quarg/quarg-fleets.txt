@@ -8,6 +8,15 @@ fleet "Quarg (Wormhole)"
 		"Quarg Skylark"
 		"Quarg Wardragon"
 
+fleet "Quarg Wardragon"
+	government "Quarg"
+	names "quarg"
+#	personality
+#		heroic disables # Disables because they are peaceful at heart and want the Coalition to stop fighting.
+
+	variant
+		"Quarg Wardragon"
+
 fleet "Small Quarg (Wormhole)"
 	government "Quarg"
 	names "quarg"
@@ -27,3 +36,21 @@ fleet "Quarg Skydragon"
 
 	variant
 		"Quarg Skydragon"
+
+fleet "Quarg Strikedragon"
+	government "Quarg"
+	names "quarg"
+	personality
+#		heroic disables
+
+	variant
+		"Quarg Strikedragon"
+
+fleet "Quarg Motherdragon"
+	government "Quarg"
+	names "quarg"
+	personality
+#		heroic disables
+
+	variant
+		"Quarg Motherdragon"

@@ -1,6 +1,20 @@
 # Both Branches
 
 event "bad news"
+
+	# Add a basic outfitter.
+
+	planet Forpelog
+		add outfitter "ACAW Basics"
+
+	planet "Tebuteb's Table"
+		add outfitter "ACAW Basics"
+
+	planet "The Ring of Fellowship"
+		add outfitter "ACAW Basics"
+
+	# Add fleets.
+
 	system Sadalsuud
 		add fleet "Quarg (Wormhole)" 300
 

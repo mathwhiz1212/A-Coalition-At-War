@@ -322,6 +322,7 @@ ship "Kimek Spire Boarder"
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
 	description `The Spire is the largest passenger transport in Coalition space, able to carry nearly three hundred individuals... as long as they're comfortable staying in the tiny bunk rooms that are primarily designed to meet the needs of a Kimek. Most of the ceilings are too short for a Saryd to stand up straight, and the beds are too small for an Arach to stretch their legs out comfortably.`
+	description `	This Spire has been extremely upgraded, to the point where it could threaten a Skylark with its capabilities.`
 
 ship "Heliarch Punisher" "Heliarch Punisher (Looting Mission)"
 	attributes
@@ -413,48 +414,25 @@ ship "Heliarch Punisher" "Heliarch Punisher (Full Quarg)"
 		"Enforcer Riot Staff" 78
 		"Enforcer Confrontation Gear" 44
 
-ship "Heliarch Punisher" "Heliarch Punisher (Quarg Bombardment)"
+ship "Heliarch Punisher" "Heliarch Punisher (Full Quarg Attractor)"
 	outfits
-		"Quarg Skylance" 4
-		"Bombardment Cannon" 5
+		"Heliarch Attractor"
+		"Quarg Skylance" 3
 
-		"Cooling Module" 3
-		"Outfits Expansion" 4
-		"Overcharged Shield Module" 3
-		"Jump Drive"
-
-		"Antimatter Core" 3
-		"Nanotech Battery"
-
-		"Large Thrust Module"
-		"Large Steering Module"
-		"Small Steering Module"
-		"Medium Graviton Steering"
-		"Medium Graviton Thruster"
-
-		"Enforcer Riot Staff" 78
-		"Enforcer Confrontation Gear" 44
-
-ship "Heliarch Punisher" "Heliarch Punisher (Quarg Repulsor)"
-	outfits
-		"Heliarch Repulsor" 4
-		"Bombardment Cannon" 6
-
+		"Cooling Module"
 		"Outfits Expansion" 4
 		"Overcharged Shield Module" 5
+		"Overclocked Repair Module" 2
 
 		"Antimatter Core" 2
 		"Nanotech Battery"
-		"Jump Drive"
 
-		"Large Thrust Module"
+		"Jump Drive"
 		"Large Steering Module"
-		"Small Steering Module"
+		"Large Thrust Module"
 		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
-
-		"Enforcer Riot Staff" 78
-		"Enforcer Confrontation Gear" 44
+		"Small Steering Module"
 
 ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Finishers)"
 	outfits
@@ -478,42 +456,55 @@ ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Finishers)"
 		"Enforcer Riot Staff" 78
 		"Enforcer Confrontation Gear" 44
 
-ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Bombardment)"
+# When the Heliarch upgrade their tech
+
+ship "Heliarch Punisher" "Heliarch Punisher (Skylance Advanced)"
 	outfits
-		"Bombardment Turret" 4
-		"Bombardment Cannon" 6
-
-		"Outfits Expansion" 4
-		"Overcharged Shield Module" 6
+		"Cooling Module" 1
 		"Jump Drive"
+		"Advanced Battery Module (Large)"
+		"Advanced Reactor Module (Large)" 4
+		"Large Steering Module" 3
+		"Large Thrust Module" 3
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 3
+		"Quarg Skylance" 2
+		"Advanced Reactor Module (Small)"
+		"Bombardment Cannon" 2
+		"Large Collector Module"
 
-		"Antimatter Core" 2
-		"Nanotech Battery"
-
-		"Large Thrust Module"
-		"Large Steering Module"
-		"Small Steering Module"
-		"Medium Graviton Steering"
-		"Medium Graviton Thruster"
-
-		"Enforcer Riot Staff" 78
-		"Enforcer Confrontation Gear" 44
-
-ship "Heliarch Punisher" "Heliarch Punisher (Quarg Pure Bombardment Thrusters)"
+ship "Heliarch Punisher" "Heliarch Punisher (Skylance Very Advanced)"
 	outfits
-		"Bombardment Turret" 4
-		"Bombardment Cannon" 6
-
-		"Outfits Expansion" 4
-		"Overcharged Shield Module" 6
+		"Cooling Module" 1
 		"Jump Drive"
+		"Advanced Battery Module (Large)"
+		"Advanced Reactor Module (Large)" 4
+		"Advanced Steering Module" 2
+		"Advanced Thrust Module" 2
+		"Outfits Expansion" 4
+		"Overcharged Shield Module" 3
+		"Quarg Skylance" 2
+		"Advanced Reactor Module (Small)"
+		"Small Thrust Module"
+		"Ion Hail Turret"
+		"Small Battery Module" 2
 
-		"Antimatter Core" 2
-		"Nanotech Battery"
+ship "Heliarch Punisher" "Heliarch Punisher (Advanced Pure Finishers)"
+	outfits
+		"Advanced Finisher Pod" 6
+		"Finisher Storage Tube" 21
+		"Finisher Torpedo" 660
 
-		"Large Thrust Module" 2
-		"Medium Graviton Steering"
-		"Medium Graviton Thruster"
+		"Large Reactor Module"
+		"Overcharged Shield Module"
+		"Overclocked Repair Module"
+		"Cooling Module" 4
+		"Scanning Module" 4
+		"Outfits Expansion" 4
+		"Enforcer Riot Staff" 71
+		"Enforcer Confrontation Gear" 40
 
-		"Enforcer Riot Staff" 78
-		"Enforcer Confrontation Gear" 44
+		"Large Thrust Module" 4
+		"Small Thrust Module"
+		"Large Steering Module" 2
+		"Jump Drive"
