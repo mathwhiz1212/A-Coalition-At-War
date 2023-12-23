@@ -20,7 +20,6 @@ mission "Choose the Quarg"
 		"reputation: Quarg" >?= 1000
 		set "license: Quarg"
 		event `ACAW: quarg branch`
-		event "remove quarg atrocities"
 
 mission `Observe the Heliarch's New Prototype`
 	description `Observe the Heliarch's New Ship Prototype`
