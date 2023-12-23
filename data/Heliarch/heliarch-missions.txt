@@ -34,7 +34,6 @@ mission `Looting a Jump Drive (The First Time)`
 
 	npc
 		personality derelict
-			confusion 0
 		government "Quarg"
 		system "Heliarch Southern Wormhole"
 		ship "Quarg Wardragon (jump only)" "Quarg Wardragon"
@@ -62,8 +61,7 @@ mission `Looting a Jump Drive`
 		has "Looting a Jump Drive (The First Time): done"
 
 	npc
-		personality
-			confusion 0
+		personality staying
 		government "Quarg"
 		system "Heliarch Southern Wormhole"
 		ship "Quarg Wardragon" "Quarg Wardragon"

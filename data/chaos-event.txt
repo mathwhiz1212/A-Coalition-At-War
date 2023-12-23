@@ -1,4 +1,0 @@
-event "chaos"
-	system "Testing"
-		add fleet "Alpha Chaos"
-		add fleet "Republic Chaos"
