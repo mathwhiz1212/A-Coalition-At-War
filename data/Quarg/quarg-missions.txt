@@ -20,6 +20,7 @@ mission "Choose the Quarg"
 		"reputation: Quarg" >?= 1000
 		set "license: Quarg"
 		event `ACAW: quarg branch`
+		event "remove quarg atrocities"
 
 mission `Observe the Heliarch's New Prototype`
 	description `Observe the Heliarch's New Ship Prototype`
@@ -111,3 +112,17 @@ mission `Overcharged Shield Module`
 		dialog `A grateful Quarg official gives you two million credits. "The Overcharged Shield Module is a rare piece of Heliarch technology that is more space efficient than our shield generators. We are anxious to learn its secrets."`
 		outfit "Overcharged Shield Module" -1
 		payment 2000000
+
+mission "v0.10.4 Patch"
+	landing
+
+	to offer
+		or
+			has "Investigate the Anomaly (Quarg Source): done"
+			has "Investigate the Anomaly (Coalition Source): done"
+
+	to fail
+		has "Choose the Coalition: done"
+
+	on complete
+		event "remove quarg atrocities"
