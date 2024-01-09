@@ -112,10 +112,11 @@ mission "v0.10.4 Patch"
 
 	to offer
 		or
-			has "Investigate the Anomaly (Quarg Source): done"
-			has "Investigate the Anomaly (Coalition Source): done"
+			has "Join the Quarg: done"
+			has "Choose the Quarg: done"
 
 	to fail
+		has "Join the Coalition: done"
 		has "Choose the Coalition: done"
 
 	on complete

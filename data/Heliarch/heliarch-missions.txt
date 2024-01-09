@@ -44,13 +44,13 @@ mission `Looting a Jump Drive (The First Time)`
 		dialog `We've equipped our Punishers in the wormhole systems with Skylances to counter the Quarg threat. You may also see our new Heliarch Longsword there from time to time. We hear the Quarg developed a new ship called the Skydragon. Do not underestimate that one.`
 		dialog `We are giving you a new prototype space liner you can use for boarding. It's not very strong, but it's got lots of bunks. It should be able to capture a regular wardragon, but may not be able to capture a Skylark depending on the crew count.`
 		give ship "Kimek Spire Boarder"
-		outfit "Jump Drive" -1
+		outfit "Jump Drive (Special)" -1
 		payment 5000000
 		event `new ACAW ships`
 		event `quarg ships looted`
 
 mission `Looting a Jump Drive`
-	description `There is a Quarg ship in the "Heliarch Southern Wormhole" system. Wait for it to be disabled, loot the jump drive and bring it to the Ring of Friendship for payment. This will require 20 cargo space. You may want to use a cloaking device so you don't die.`
+	description `There is a Quarg ship in the "Heliarch Southern Wormhole" system. Wait for it to be disabled, loot the jump drive and bring it to the Ring of Friendship for payment. This will require 20 cargo space. You may want to use a cloaking device so you don't die. If you fail, come back here and accept the mission again.`
 	landing
 	job
 	repeat
@@ -64,11 +64,11 @@ mission `Looting a Jump Drive`
 		personality staying
 		government "Quarg"
 		system "Heliarch Southern Wormhole"
-		ship "Quarg Wardragon" "Quarg Wardragon"
+		ship "Quarg Wardragon (Special Jump Drive)" "Quarg Wardragon"
 
 	on complete
 		dialog `A grateful Heliarch official gives you 5 million credits for the Jump Drive you looted.`
-		outfit "Jump Drive" -1
+		outfit "Jump Drive (Special)" -1
 		payment 5000000
 
 #mission "Longsword"
