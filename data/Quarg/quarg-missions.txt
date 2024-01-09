@@ -22,7 +22,7 @@ mission "Join the Quarg"
 		event `ACAW: quarg branch`
 
 mission `Observe the Heliarch's New Prototype`
-	description `Observe the Heliarch's New Ship Prototype`
+	description `The Heliarch have built a new ship prototype and the Quarg are worried it has something to do with increased looting of Quarg ships by the Heliarch. Observe the Heliarch's new ship prototype in Quarg Southern Wormhole and report back at Forpelog with your observations. You may want to use a cloaking device to avoid dying.`
 	job
 
 	waypoint "Quarg Southern Wormhole"
@@ -31,7 +31,7 @@ mission `Observe the Heliarch's New Prototype`
 		has "Join the Quarg: done"
 
 	on accept
-		dialog `The Heliarch have built a new ship prototype and the Quarg are worried it has something to do with increased looting of Quarg ships by the Heliarch. Observe the Heliarch's new ship prototype in Quarg Southern Wormhole. Return to Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance. You will likely need to use your cloaking device for this mission. If you die, load your last save and try again. Feel free to loot the Heliarch ships after the battle.`
+		dialog `The Heliarch have built a new ship prototype and the Quarg are worried it has something to do with increased looting of Quarg ships by the Heliarch. Observe the Heliarch's new ship prototype in Quarg Southern Wormhole and report back at Forpelog with your observations. Do not engage any ships there, simply watch from a safe distance. You will likely need to use your cloaking device for this mission. If you die, load your last save and try again. Feel free to loot the Heliarch ships after the battle.`
 		dialog `The Quarg are sending one of their new "Skydragon" ships with you on this mission.`
 
 	npc
